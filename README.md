@@ -10,6 +10,7 @@ A curated list of papers and open-source resources focused on CloudXR. If you ha
 - [CloudGaming](#cloudgaming)
 - [CloudXR](#cloudxr)
 - [Dataset](#dataset)
+- [Edge 5G](#edge-5g)
 - [Latency](#latency)
 - [Platform](#platform)
 - [QoS](#qos)
@@ -133,6 +134,13 @@ With the proliferation of smart mobile devices and broadband wireless networks, 
 
 ## Dataset
 - [Dataset](https://Dataset.html)
+
+<br>
+
+<br>
+
+## Edge 5G
+- [Latency](https://Edge-5g.html)
 
 <br>
 
