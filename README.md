@@ -6,7 +6,7 @@ A curated list of papers and open-source resources focused on CloudXR. If you ha
 <br>
 
 - [Architecture](#architecture)
-- [Bisuness](#autonomous-driving)
+- [Business](#business)
 - [CloudGaming](#cloudgaming)
 - [CloudXR](#cloudxr)
 - [Dataset](#dataset)
@@ -111,8 +111,29 @@ With the proliferation of smart mobile devices and broadband wireless networks, 
 
 <br>
 
-## Bisuness
-- [Bisuness](https://Bisuness.html)
+## Business
+
+<br>
+
+### 1. Cloud Pricing Models: Taxonomy, Survey, and Interdisciplinary Challenges
+**Authors**: CAESAR WU, RAJKUMAR BUYYA, and KOTAGIRI RAMAMOHANARAO
+<details span>
+<summary><b>Abstract</b></summary>
+This article provides a systematic review of cloud pricing in an interdisciplinary approach. It examines many historical cases of pricing in practice and tracks down multiple roots of pricing in research. The aim is to help both cloud service provider (CSP) and cloud customers to capture the essence of cloud pricing when they need to make a critical decision either to achieve competitive advantages or to manage cloud resource effectively. Currently, the number of available pricing schemes in the cloud market is overwhelming. It is an intricate issue to understand these schemes and associated pricing models clearly due to involving several domains of knowledge, such as cloud technologies, microeconomics, operations research, and value theory. Some earlier studies have introduced this topic unsystematically. Their approaches inevitably lead to much confusion for many cloud decision-makers. To address their weaknesses, we present a comprehensive taxonomy of cloud pricing, which is driven by a framework of three fundamental pricing strategies that are built on nine cloud pricing categories. These categories can be further mapped onto a total of 60 pricing models. Many of the pricing models have been already adopted by CSPs. Others have been widespread across in other industries. We give descriptions of these model categories and highlight both advantages and disadvantages. Moreover, this article offers an extensive survey of many cloud pricing models that were proposed by many researchers during the past decade. Based on the survey, we identify four trends of cloud pricing and the general direction, which is moving from intrinsic value per physical box to extrinsic value per serverless sandbox. We conclude that hyper-converged cloud resources pool supported by cloud orchestration, virtual machine, Open Application Programming Interface, and serverless sandbox will drive the future of cloud pricing.
+</details>
+
+ [📄 Paper](https://www.academia.edu/download/91269318/CloudPricingModels-Taxonomy.pdf) 
+
+<br>
+
+### 2. Developing Cloud Business Models: A Case Study on Cloud Gaming
+**Authors**: Arto Ojala and Pasi Tyrväinen, University of Jyväskylä
+<details span>
+<summary><b>Abstract</b></summary>
+Cloud computing offers new ways for firms to operate in the global market so that even small firms can compete in markets traditionally dominated by multinational corporations. A case study considers how, over ten years, a small firm developed a successful business model to compete in computer gaming.
+</details>
+
+ [📄 Paper](https://jyx.jyu.fi/bitstream/handle/123456789/36950/1/developing%20cloud%20business%20models%20a%20case%20study%20on%20cloud%20gaming.pdf) 
 
 <br>
 
