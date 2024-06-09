@@ -262,9 +262,121 @@ Advances in cloud computing and GPU virtualization are allowing the game industr
 <br>
 
 ## CloudXR
-- [CloudXR](https://CloudXR.html)
+
+ ### 1. A Robust Display Delay Compensation Technique Considering User’s Head Motion Direction for Cloud XR
+**Authors**: Tatsuya Kobayashi, Tomoaki Konno, H. Kato
+<details span>
+<summary><b>Abstract</b></summary>
+Conventionally, it has been difficult to realize both photorealistic and geometrically consistent 3DCG rendering on head mounted displays (HMDs), due to the trade-off between rendering quality and low motion-to-photon latency (M2PL). In order to solve this problem, we propose a novel rendering framework, where the server renders RGB-D images of a 3D model with the optimally arranged rendering viewpoints, and the client HMD realizes geometric compensation of M2PL by employing depth image based rendering (DIBR). Experiments with real smart glasses show that the proposed method can display binocular images closer to the ground truth than the conventional approaches.
+</details>
 
 <br>
+
+ ### 2. CloudVR - Secure, Fast and Distributed Virtual Reality Solutions
+**Authors**: Leon Koster
+<details span>
+<summary><b>Abstract</b></summary>
+The graduations goal was to find out: "Which Technology stack(s) for building a cloud Virtual Reality (VR) streaming application satisfies the clients demands (low latency, security, QoE) best ? ". The chosen technology stack is NVIDIA's CloudXR SDK deployed on an Microsoft Azure Server, since it was the only feasible way to provide a working prototype for the client within the project timeframe. The report includes the neccessary theoretical knowledge, the decision making progress behind the prototype, implementation and testing of the prototype and implications of the results of the tests. The prototype in it's final set up had an individual frame latency that was only 1-2 ms higher than the researched barrier of 20ms and fulfilled security demands.
+</details>
+
+ [📄 Paper](https://github.com/Aptanaa/CloudVR-Thesis) 
+
+<br>
+
+
+ ### 3. CloudVR: Cloud Accelerated Interactive Mobile Virtual Reality
+**Authors**: Teemu Kämäräinen, M. Siekkinen, Jukka Eerikäinen, Antti Ylä-Jääski
+<details span>
+<summary><b>Abstract</b></summary>
+High quality immersive Virtual Reality experience currently requires a PC setup with cable connected head mounted display, which is expensive and restricts user mobility. This paper presents CloudVR which is a system for cloud accelerated interactive mobile VR. It is designed to provide short rotation and interaction latencies through panoramic rendering and dynamic object placement. CloudVR also includes rendering optimizations to reduce serverside computational load and bandwidth requirements between the server and client. Performance measurements with a CloudVR prototype suggest that the optimizations make it possible to double the server's framerate and halve the amount of bandwidth required and that small objects can be quickly moved at run time to client device for rendering to provide shorter interaction latency. A smallscale user study indicates that CloudVR users do not notice small network latencies (20ms) and even much longer ones (100-200ms) become non-trivial to detect when they do not affect the interaction with objects. Finally, we present a design of CloudVR extension to multi-user scenarios.
+</details>
+
+ [📄 Paper](https://www.researchgate.net/publication/328375148_CloudVR_Cloud_Accelerated_Interactive_Mobile_Virtual_Reality) 
+
+<br>
+
+
+ ### 4. Cutting the Cord: Designing a High-quality Untethered VR System with Low Latency Remote Rendering
+**Authors**: Luyang Liu, Ruiguang Zhong, Wuyang Zhang, Yunxin Liu, Jiansong Zhang, Lintao Zhang, M. Gruteser
+<details span>
+<summary><b>Abstract</b></summary>
+This paper introduces an end-to-end untethered VR system design and open platform that can meet virtual reality latency and quality requirements at 4K resolution over a wireless link. High-quality VR systems generate graphics data at a data rate much higher than those supported by existing wireless-communication products such as Wi-Fi and 60GHz wireless communication. The necessary image encoding, makes it challenging to maintain the stringent VR latency requirements. To achieve the required latency, our system employs a Parallel Rendering and Streaming mechanism to reduce the add-on streaming latency, by pipelining the rendering, encoding, transmission and decoding procedures. Furthermore, we introduce a Remote VSync Driven Rendering technique to minimize display latency. To evaluate the system, we implement an end-to-end remote rendering platform on commodity hardware over a 60Ghz wireless network. Results show that the system can support current 2160x1200 VR resolution at 90Hz with less than 16ms end-to-end latency, and 4K resolution with 20ms latency, while keeping a visually lossless image quality to the user.
+</details>
+
+ [📄 Paper](https://www.researchgate.net/profile/Luyang-Liu-3/publication/326240756_Cutting_the_Cord_Designing_a_High-quality_Untethered_VR_System_with_Low_Latency_Remote_Rendering/links/5b43e204aca2728a0d6898cc/Cutting-the-Cord-Designing-a-High-quality-Untethered-VR-System-with-Low-Latency-Remote-Rendering.pdf) 
+
+<br>
+
+
+ ### 5. Edge-Computing-Assisted Virtual Reality Computation Offloading: An Empirical Study
+**Authors**: B. W. Nyamtiga, Airlangga Adi Hermawan, Y. F. Luckyarno, Tae-Wook Kim, Deok-Young Jung, Jin Sam Kwak, Ji-Hoon Yun
+<details span>
+<summary><b>Abstract</b></summary>
+Offloading heavy virtual reality (VR) computational operations to a network edge computation entity is receiving increasing attention as a tool to wirelessly and energy efficiently provide low-end client devices with high-quality and immersive interactive VR services anytime and anywhere across the globe. In this work, we aim to provide an understanding of various characteristics of VR computation offloading through comprehensive experiments conducted using a prototype testbed for edge-assisted VR processing and streaming. First, we investigate the benefits of VR offloading in terms of computational load and power consumption reduction for a client device compared to standalone operation. Next, we measure VR traffic patterns, including frame size and data and packet rates with various settings, such as different resolution and encoding options. We also measure several performance metrics associated with the quality of experience, namely, frame rate, packet loss rate, and image quality, with various configuration settings. Then, we present latency measurement studies and investigate per-component latency with various settings. Furthermore, we report the rigorous experiments performed to study the impacts of latency and motion patterns on the black borders formed due to image reprojection and the overfilling technique used to eliminate these black borders.
+</details>
+
+ [📄 Paper](https://ieeexplore.ieee.org/ielx7/6287639/9668973/09881517.pdf) 
+
+<br>
+
+ ### 6. Edge Cloud-based Augmented Reality
+**Authors**: Christoph Bachhuber, A. Martinez, R. Pries, Sebastian Eger, E. Steinbach
+<details span>
+<summary><b>Abstract</b></summary>
+A convincing augmented reality (AR) experience requires vast computational resources, in particular for threedimensional mapping of the environment, pose estimation and high-quality rendering of virtual objects. Even today's most powerful mobile devices can not provide such computational resources and consequently limit the achievable quality of the augmentation. To tackle this issue, all computations necessary for AR can be offloaded to the Edge Cloud, such that the mobile device merely acts as a camera and display. This approach introduces additional processing steps, namely video communication, which we carefully evaluate with respect to their influence on the quality of experience and energy consumption. In the evaluation of our prototype, we show that with a Glassto-Glass delay of about 85 ms, our implementation is competitive against state-of-the-art solutions which run completely locally on a mobile device. Most notably, the additional steps required for offloading contribute little delay, which is often overcompensated by the faster computations in the Edge Cloud. A further benefit is that compared to performing all AR processing locally, offloading reduces the energy consumption in smartphones on average by 50 %. Moreover, the computational resources available for the AR application increase by a factor 10 to 100 through offloading. Finally, offloading enables high-quality AR applications even in low-end mobile devices.
+</details>
+
+
+<br>
+
+
+ ### 7. Mobile VR on edge cloud: a latency-driven design
+**Authors**: Shu Shi, Varun Gupta, Michael Hwang, R. Jana
+<details span>
+<summary><b>Abstract</b></summary>
+In this paper we design and implement MEC-VR, a mobile VR system that uses a Mobile Edge Cloud (MEC) to deliver high quality VR content to today's mobile devices using 4G/LTE cellular networks. Our main contribution is in realizing a low latency control loop that streams VR scenes containing only the user's Field of View (FoV) and a latency-adaptive margin area around the FoV. This allows the clients to render locally at a high refresh rate to accommodate and compensate for the head movements before the next motion update arrives. Compared with prior approaches, our MEC-VR design requires no viewpoint prediction, supports dynamic and live VR content, and adapts to the real-world latency experienced in cellular networks between the MEC and mobile devices. We implement a prototype of MEC-VR and evaluate its performance on a MEC node connected to an LTE testbed. We demonstrate that MEC-VR can effectively stream live VR content up to 8K resolution over 4G/LTE networks and achieve more than 80% of bandwidth savings.
+</details>
+
+ [📄 Paper](https://www.researchgate.net/profile/Shu-Shi-3/publication/333862842_Mobile_VR_on_edge_cloud_a_latency-driven_design/links/5d51764a92851cd046b592df/Mobile-VR-on-edge-cloud-a-latency-driven-design.pdf) 
+
+<br>
+
+
+ ### 8. On the Minimization of Glass-to-Glass and Glass-to-Algorithm Delay in Video Communication
+**Authors**: Christoph Bachhuber, E. Steinbach, Martin Freundl, M. Reisslein
+<details span>
+<summary><b>Abstract</b></summary>
+Video cameras are increasingly used to provide realtime feedback in automatic control systems, such as autonomous driving and robotics systems. For such highly dynamic applications, the Glass-to-Glass (G2G) and Glass-to-Algorithm (G2A) latencies are critical. In this paper, we analyze the latencies in a point-to-point video transmission system and propose novel frame skipping and preemption approaches to reduce the G2G and G2A delays. We implement the proposed approaches in a prototype which shows significantly reduced G2G and G2A latencies as well as reduced transmission bitrate requirements compared with traditional video transmission schemes. In our low-delay video communication prototype, a VGA resolution video is transmitted with average G2G and G2A delays of 21.2 and 11.5 milliseconds with off-the-shelf hardware.
+</details>
+
+ [📄 Paper](https://faculty.engineering.asu.edu/mre/wp-content/uploads/sites/31/2020/04/DelVidComm.pdf) 
+
+<br>
+
+
+ ### 9. OpenUVR: an Open-Source System Framework for Untethered Virtual Reality Applications
+**Authors**: Yunhua Deng, Yusen Li, Ronald Seet, Xueyan Tang, Wentong Cai
+<details span>
+<summary><b>Abstract</b></summary>
+Advancements in heterogeneous computing technologies enable the significant potential of virtual reality (VR) applications. To offer the best user experience (UX), a system should adopt an untethered, wireless-network-based architecture to transfer VR content between the user and the content generator. However, modern wireless network technologies make implementing such an architecture challenging, as VR applications require superior video quality—with high resolution, high frame rates, and very low latency. This paper presents OpenUVR, an open-source framework that uses commodity hardware components to satisfy the demands of interactive, real-time VR applications. OpenUVR significantly improves UX through a redesign of the system stack and addresses the most time-sensitive issues associated with redundant memory copying in modern computing systems. OpenUVR presents a cross-layered VR datapath to avoid redundant data operations and computation among system components, OpenUVR customizes the network stack to eliminate unnecessary memory operations incurred by mismatching data formats in each layer, and OpenUVR uses feedback from mobile devices to remove memory buffers. Together, these modifications allow OpenUVR to reduce VR application delays to 14.32 ms, meeting the 20 ms minimum latency in avoiding motion sickness. As an open-source system that is fully compatible with commodity hardware, OpenUVR offers the research community an opportunity to develop, investigate, and optimize applications for untethered, high-performance VR architectures.
+</details>
+
+ [📄 Paper](https://par.nsf.gov/servlets/purl/10221134) 
+
+<br>
+
+
+ ### 10. Towards Fully Offloaded Cloud-based AR: Design, Implementation and Experience
+**Authors**: R. Shea, Andy Sun, Silvery Fu, Jiangchuan Liu
+<details span>
+<summary><b>Abstract</b></summary>
+Combining advanced sensors and powerful processing capabilities smart-phone based augmented reality (AR) is becoming increasingly prolific. e increase in prominence of these resource hungry AR applications poses significant challenges to energy constrained environments such as mobile-phones. To that end we present a platform for offloading AR applications to powerful cloud servers. We implement this system using a thin-client design and explore its performance using the real world application Pokemon Go as a case study. We show that with careful design a thin client is capable of offloading much of the AR processing to a cloud server, with the results being streamed back. Our initial experiments show substantial energy savings, low latency and excellent image quality even at relatively low bit-rates.
+</details>
+
+ [📄 Paper](https://drive.google.com/file/d/1_l5LFnHHr-f1HqBkRLt2lqpGS7QZZaxP/view) 
+
+<br>
+
 
 <br>
 
