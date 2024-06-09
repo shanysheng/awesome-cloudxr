@@ -426,7 +426,40 @@ The gaming market has kept growing significantly in recent years. Driven by mult
 
 ## Edge 5G
 
+### 1. A Comprehensive Survey on Mobile Edge Computing: Challenges, Tools, Applications
+**Authors**: Fatema Vhora, Jay Gandhi
+<details span>
+<summary><b>Abstract</b></summary>
+Mobile edge computing (MEC) is an emerging standard where cloud computing services like storage and computing, provide to the edge of networks. MEC has the potential of executing computing-intensive applications such as augmented and virtual reality. It is an essential component in the internet of things (IoT) and 5G architecture that provides a noticeable reduction in latency and energy consumption of mobile devices. This paper covers a comprehensive survey about the MEC concept including MEC Analogue. It presents a different edge paradigm like Fog computing, cloudlet, MEC, along with its architecture. The diverse challenges with its related work are covers during the survey. Simulation tools and challenges for real time implementations are explained. Finally, different MEC Scenarios and applications are discussed.
+</details>
+
+ [📄 Paper](https://www.researchgate.net/profile/Fatema-Vhora/publication/340895452_A_Comprehensive_Survey_on_Mobile_Edge_Computing_Challenges_Tools_Applications/links/5ee4818c299bf1faac526a87/A-Comprehensive-Survey-on-Mobile-Edge-Computing-Challenges-Tools-Applications.pdf)
+
 <br>
+
+
+### 2. Computation Offloading Toward Edge Computing
+**Authors**: Li Lin, Xiaofei Liao, Hai Jin, Peng Li
+<details span>
+<summary><b>Abstract</b></summary>
+We are living in a world where massive end devices perform computing everywhere and everyday. However, these devices are constrained by the battery and computational resources. With the increasing number of intelligent applications (e.g., augmented reality and face recognition) that require much more computational power, they shift to perform computation offloading to the cloud, known as mobile cloud computing (MCC). Unfortunately, the cloud is usually far away from end devices, leading to a high latency as well as the bad quality of experience (QoE) for latency-sensitive applications. In this context, the emergence of edge computing is no coincidence. Edge computing extends the cloud to the edge of the network, close to end users, bringing ultra-low latency and high bandwidth. Consequently, there is a trend of computation offloading toward edge computing. In this paper, we provide a comprehensive perspective on this trend. First, we give an insight into the architecture refactoring in edge computing. Based on that insight, this paper reviews the state-of-the-art research on computation offloading in terms of application partitioning, task allocation, resource management, and distributed execution, with highlighting features for edge computing. Then, we illustrate some disruptive application scenarios that we envision as critical drivers for the flourish of edge computing, such as real-time video analytics, smart “things” (e.g., smart city and smart home), vehicle applications, and cloud gaming. Finally, we discuss the opportunities and future research directions.
+</details>
+
+
+<br>
+
+
+### 3. From cloud to edge: a first look at public edge platforms
+**Authors**: Mengwei Xu, Zhe Fu, Xiao Ma, Li Zhang, Yanan Li, Feng Qian, Shangguang Wang, Ke Li, Jingyu Yang, Xuanzhe Liu
+<details span>
+<summary><b>Abstract</b></summary>
+Public edge platforms have drawn increasing attention from both academia and industry. In this study, we perform a first-of-its-kind measurement study on a leading public edge platform that has been densely deployed in China. Based on this measurement, we quantitatively answer two critical yetunexplored questions. First, from end users' perspective, what is the performance of commodity edge platforms compared to cloud, in terms of the end-to-end network delay, throughput, and the application QoE. Second, from the edge service provider's perspective, how are the edge workloads different from cloud, in terms of their VM subscription, monetary cost, and resource usage. Our study quantitatively reveals the status quo of today's public edge platforms, and provides crucial insights towards developing and operating future edge services.
+</details>
+
+ [📄 Paper](https://feng-qian.github.io/paper/edge_imc21.pdf) | [💻 Code ](https://feng-qian.github.io/index.html)
+
+<br>
+
 
 <br>
 
