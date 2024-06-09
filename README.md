@@ -381,63 +381,92 @@ Combining advanced sensors and powerful processing capabilities smart-phone base
 <br>
 
 ## Dataset
-- [Dataset](https://Dataset.html)
+
+### 1. CGD: A Cloud Gaming Dataset with Gameplay Video and Network Recordings
+**Authors**: Iva Slivar, K. Bačić, Irena Orsolic, Lea Skorin-Kapov, M. Sužnjević
+<details span>
+<summary><b>Abstract</b></summary>
+With advances in network capabilities, the gaming industry is increasingly turning towards offering "gaming on demand" solutions, with cloud gaming services such as Sony PlayStation Now, Google Stadia, and NVIDIA GeForce NOW expanding their market offerings. Similar to adaptive video streaming services, cloud gaming services typically adapt the quality of game streams (e.g., bitrate, resolution, frame rate) in accordance with current network conditions. To select the most appropriate video encoding parameters given certain conditions, it is important to understand their impact on Quality of Experience (QoE). On the other hand, network operators are interested in understanding the relationships between parameters measurable in the network and cloud gaming QoE, to be able to invoke QoE-aware network management mechanisms. To encourage developments in these areas, comprehensive datasets are crucial, including both network and application layer data. This paper presents CGD, a dataset consisting of 600 game streaming sessions corresponding to 10 games of different genres being played and streamed using the following encoding parameters: bitrate (5, 10, 20 Mbps), resolution (720p, 1080p), and frame rate (30, 60 fps). For every combination repeated five times for each game, the dataset includes: 1) gameplay video recordings, 2) network traffic traces, 3) user input logs (mouse and keyboard), and 4) streaming performance logs.
+</details>
+
+ [📄 Paper](https://scholar.archive.org/work/r3decnunc5bole6x4g7epeow5y/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3524273.3532898) 
 
 <br>
+
+### 2. GamingVideoSET: a dataset for gaming video streaming applications
+**Authors**: Nabajeet Barman, Saman Zadtootaghaj, Steven Schmidt, M. Martini, S. Möller
+<details span>
+<summary><b>Abstract</b></summary>
+This paper presents GamingVideoSET1, a dataset consisting of twenty-four uncompressed raw gaming videos of 30 seconds duration, 1080p resolution, and 30 fps for the research community working on gaming video quality assessment. Furthermore, the data set includes subjective quality assessment results for 90 video sequences obtained by encoding six different gaming videos using the H.264/MPEG-AVC codec standard in 15 different resolution-bitrate pairs (three resolution, five bitrates each). In addition to the reference videos, the dataset offers a total of 576 distorted videos in MP4 format, obtained by encoding the videos in 24 different resolution-bitrate pairs, and their objective quality assessment results (average and per-frame) using three video quality assessment metrics.
+</details>
+
+ [📄 Paper](https://www.researchgate.net/profile/Nabajeet-Barman-2/publication/325285210_GamingVideoSET_A_Dataset_for_Gaming_Video_Streaming_Applications/links/605f34fc458515e83476bee8/GamingVideoSET-A-Dataset-for-Gaming-Video-Streaming-Applications.pdf) | [💻 Code ](https://github.com/NabajeetBarman/GamingHDRVideoSET)
+
+<br>
+
+### 3. User generated HDR gaming video streaming : dataset, codec comparison and challenges
+**Authors**: Nabajeet Barman, M. Martini
+<details span>
+<summary><b>Abstract</b></summary>
+Gaming video streaming services have grown tremendously in the past few years, with higher resolutions, higher frame rates and HDR gaming videos getting increasingly adopted among the gaming community. Since gaming content as such is different from non-gaming content, it is imperative to evaluate the performance of the existing encoders to help understand the bandwidth requirements of such services, as well as further improve the compression efficiency of such encoders. Towards this end, we present in this paper GamingHDRVideoSET1, a dataset consisting of eighteen 10-bit UHD-HDR gaming videos and encoded video sequences using four different codecs, together with their objective evaluation results. Additionally, the paper discusses the codec compression efficiency of most widely used practical encoders, i.e., x264 (H.264/AVC), x265 (H.265/HEVC) and libvpx (VP9), as well the recently proposed encoder libaom (AV1), on 10-bit, UHD-HDR content gaming content. Our results show that the latest compression standard AV1 results in the best compression efficiency, followed by HEVC, H.264, and VP9.
+</details>
+
+ [📄 Paper](https://eprints.kingston.ac.uk/id/eprint/49080/6/Barman-N-49080-1-AAM.pdf) | [💻 Code ](https://github.com/NabajeetBarman/GamingHDRVideoSET)
+
+<br>
+
+### 4. Video Coding Tool Analysis and Dataset for Gaming Content
+**Authors**: Xin Zhao, Shankai Liu, Xiang Li, Guichun Li, Xiaozhong Xu
+<details span>
+<summary><b>Abstract</b></summary>
+The gaming market has kept growing significantly in recent years. Driven by multiple technology advances, such as cloud computing and video technologies, new gaming applications, e.g. AR, VR and cloud gaming, are becoming more and more practical and popular. Among different types of gaming, the emergence of cloud gaming is driving the market with enhanced gamer experience as well as new challenges to the services. One of the key technological challenges of gaming applications is the video coding, which is the foundation of several popular gaming applications, including cloud gaming and game live streaming. Comparing to the typical camera captured content and screen content, gaming content presents unique features that directly lead to different preferences on the selection of coding tool sets. To better understand the behaviors of known video coding tools and provide test materials for research and development on future coding tools that benefits more on gaming content, in this paper, a dataset consists of a set of gaming video is proposed together with analysis of the performances of existing coding tools on these materials. It is observed that, several known coding tools are exceptionally beneficial for gaming content and the rational is analyzed in this paper.
+</details>
 
 <br>
 
 ## Edge 5G
-- [Latency](https://Edge-5g.html)
 
 <br>
 
 <br>
 
 ## Latency
-- [Latency](https://Latency.html)
 
 <br>
 
 <br>
 
 ## Platform
-- [Platform](https://Platform.html)
 
 <br>
 
 <br>
 
 ## QoS
-- [QoS](https://QoS.html)
 
 <br>
 
 <br>
 
 ## QoE
-- [QoE](https://QoE.html)
 
 <br>
 
 <br>
 
 ## Streaming
-- [Streaming](https://Streaming.html)
 
 <br>
 
 <br>
 
 ## Virtulized
-- [Virtulized](https://Virtulized.html)
 
 <br>
 
 <br>
 
 ## Open Source Implementations
-- [Open Source Implementations](https://Virtulized.html)
 
 <br>
 
