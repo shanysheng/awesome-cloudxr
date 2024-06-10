@@ -27,7 +27,7 @@ A curated list of papers and open-source resources focused on CloudXR. If you ha
 
 《云游戏：5G开启数字娱乐新时代》,《云化虚拟现实技术与应用》
 
-<img src=./images/cloudgaming.jpg height=500 /> <img src=./images/cloudvr.jpg height=500 />
+<img src=./images/cloudgaming.jpg height=600 /> <img src=./images/cloudvr.jpg height=600 />
 
 <br>
 
@@ -141,8 +141,6 @@ Cloud computing offers new ways for firms to operate in the global market so tha
 </details>
 
  [📄 Paper](https://jyx.jyu.fi/bitstream/handle/123456789/36950/1/developing%20cloud%20business%20models%20a%20case%20study%20on%20cloud%20gaming.pdf) 
-
-<br>
 
 <br>
 
@@ -357,9 +355,6 @@ Combining advanced sensors and powerful processing capabilities smart-phone base
 
 <br>
 
-
-<br>
-
 ## Dataset
 
 ### 1. CGD: A Cloud Gaming Dataset with Gameplay Video and Network Recordings
@@ -453,6 +448,7 @@ Cloud gaming is a relatively new paradigm in which the game is rendered in the c
 
  [📄 Paper](https://pdfs.semanticscholar.org/b43f/9c0a6e424c2730265a2f42bd66c441092c0e.pdf) 
 
+<br>
 
 ### 2. A System for Precise End-to-End Delay Measurements in Video Communication.
 **Authors**: Christoph Bachhuber, E. Steinbach
@@ -473,8 +469,6 @@ While cloud servers provide a tremendous amount of resources for networked video
  [📄 Paper](https://people.computing.clemson.edu/~jmarty/projects/lowLatencyNetworking/papers/RecentInternetMeasurementResearch/DelaySensitiveVideoComputingIntheCloud.pdf) 
 
 <br>
-
-
 
 ### 4. Measuring the latency of cloud gaming systems
 **Authors**: Kuan-Ta Chen, Yu-Chun Chang, P. Tseng, Chun-Ying Huang, C. Lei
@@ -505,8 +499,6 @@ Video games are typically played on a device such as a computer, console, or pho
 </details>
 
  [📄 Paper](http://web.cs.wpi.edu/~claypool/iqp/cloudgame-19/report.pdf)
-
-<br>
 
 <br>
 
