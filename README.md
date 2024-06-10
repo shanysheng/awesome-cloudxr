@@ -590,18 +590,7 @@ Cloud gaming represents a highly interactive service whereby game logic is rende
 
 <br>
 
-### 4. On the Quality of Service of Cloud Gaming Systems
-**Authors**:Kuan-Ta Chen, Yu-Chun Chang, Hwai-Jung Hsu, De-Yu Chen, Chun-Ying Huang, Cheng-Hsin Hsu
-<details span>
-<summary><b>Abstract</b></summary>
-Cloud gaming, i.e., real-time game playing via thin clients, relieves users from being forced to upgrade their computers and resolve the incompatibility issues between games and computers. As a result, cloud gaming is generating a great deal of interests among entrepreneurs, venture capitalists, general publics, and researchers. However, given the large design space, it is not yet known which cloud gaming system delivers the best user-perceived Quality of Service (QoS) and what design elements constitute a good cloud gaming system.This study is motivated by the question: How good is the QoS of current cloud gaming systems? Answering the question is challenging because most cloud gaming systems are proprietary and closed, and thus their internal mechanisms are not accessible for the research community. In this paper, we propose a suite of measurement techniques to evaluate the QoS of cloud gaming systems and prove the effectiveness of our schemes using a case study comprising two well-known cloud gaming systems: OnLive and StreamMyGame. Our results show that OnLive performs better, because it provides adaptable frame rates, better graphic quality, and shorter server processing delays, while consuming less network bandwidth. Our measurement techniques are general and can be applied to any cloud gaming systems, so that researchers, users, and service providers may systematically quantify the QoS of these systems. To the best of our knowledge, the proposed suite of measurement techniques have never been presented in the literature.
-</details>
-
- [📄 Paper](https://homepage.iis.sinica.edu.tw/~swc/pub/qos_cloud_gaming_systems.html)
-
-<br>
-
-### 5. Delay Sensitivity Classification of Cloud Gaming Content
+### 4. Delay Sensitivity Classification of Cloud Gaming Content
 **Authors**:S. Sabet, Steven Schmidt, Saman Zadtootaghaj, C. Griwodz, Sebastian Möller
 <details span>
 <summary><b>Abstract</b></summary>
@@ -612,7 +601,7 @@ Cloud Gaming is an emerging service that catches growing interestin the research
 
 <br>
 
-### 6. Game Categorization for Deriving QoE-Driven Video Encoding Configuration Strategies for Cloud Gaming
+### 5. Game Categorization for Deriving QoE-Driven Video Encoding Configuration Strategies for Cloud Gaming
 **Authors**:Iva Slivar, M. Sužnjević, Lea Skorin-Kapov
 <details span>
 <summary><b>Abstract</b></summary>
@@ -623,7 +612,7 @@ Cloud gaming has been recognized as a promising shift in the online game industr
 
 <br>
 
-### 7. Latency impact on Quality of Experience in a virtual reality simulator for remote control of machines
+### 6. Latency impact on Quality of Experience in a virtual reality simulator for remote control of machines
 **Authors**:
 <details span>
 <summary><b>Abstract</b></summary>
@@ -634,7 +623,7 @@ In this article, we have investigated a VR simulator of a forestry crane used fo
 
 <br>
 
-### 8. Modeling Gaming QoE: Towards the Impact of Frame Rate and Bit Rate on Cloud Gaming
+### 7. Modeling Gaming QoE: Towards the Impact of Frame Rate and Bit Rate on Cloud Gaming
 **Authors**:Saman Zadtootaghaj, Steven Schmidt, Sebastian Möller
 <details span>
 <summary><b>Abstract</b></summary>
@@ -645,7 +634,7 @@ Recent advances of streaming services and the upcoming new generation of mobile 
 
 <br>
 
-### 9. Perceived order in different sense modalities.
+### 8. Perceived order in different sense modalities.
 **Authors**:I. Hirsh, C. Sherrick
 <details span>
 <summary><b>Abstract</b></summary>
@@ -656,7 +645,7 @@ Recent advances of streaming services and the upcoming new generation of mobile 
 
 <br>
 
-### 10. Quality of experience (QoE) in cloud gaming models: A review
+### 9. Quality of experience (QoE) in cloud gaming models: A review
 **Authors**:Asif Ali Laghari, Hui He, K. A. Memon, Rashid Ali Laghari, I. A. Halepoto, Asiya Khan
 <details span>
 <summary><b>Abstract</b></summary>
@@ -668,7 +657,7 @@ Cloud gaming is a new way of online gaming, which renders the game data on the c
 <br>
 
 
-### 11. Subjective quality assessment for cloud gaming
+### 10. Subjective quality assessment for cloud gaming
 **Authors**:Abdul Wahab, Nafi Ahmad, M. Martini, J. Schormans
 <details span>
 <summary><b>Abstract</b></summary>
@@ -758,7 +747,18 @@ Using subjective testing, we study the effect of the network parameters, delay a
 
 <br>
 
-### 8. Performance Measurements on a Cloud VR Gaming Platform
+### 8. On the Quality of Service of Cloud Gaming Systems
+**Authors**:Kuan-Ta Chen, Yu-Chun Chang, Hwai-Jung Hsu, De-Yu Chen, Chun-Ying Huang, Cheng-Hsin Hsu
+<details span>
+<summary><b>Abstract</b></summary>
+Cloud gaming, i.e., real-time game playing via thin clients, relieves users from being forced to upgrade their computers and resolve the incompatibility issues between games and computers. As a result, cloud gaming is generating a great deal of interests among entrepreneurs, venture capitalists, general publics, and researchers. However, given the large design space, it is not yet known which cloud gaming system delivers the best user-perceived Quality of Service (QoS) and what design elements constitute a good cloud gaming system.This study is motivated by the question: How good is the QoS of current cloud gaming systems? Answering the question is challenging because most cloud gaming systems are proprietary and closed, and thus their internal mechanisms are not accessible for the research community. In this paper, we propose a suite of measurement techniques to evaluate the QoS of cloud gaming systems and prove the effectiveness of our schemes using a case study comprising two well-known cloud gaming systems: OnLive and StreamMyGame. Our results show that OnLive performs better, because it provides adaptable frame rates, better graphic quality, and shorter server processing delays, while consuming less network bandwidth. Our measurement techniques are general and can be applied to any cloud gaming systems, so that researchers, users, and service providers may systematically quantify the QoS of these systems. To the best of our knowledge, the proposed suite of measurement techniques have never been presented in the literature.
+</details>
+
+ [📄 Paper](https://homepage.iis.sinica.edu.tw/~swc/pub/qos_cloud_gaming_systems.html)
+
+<br>
+
+### 9. Performance Measurements on a Cloud VR Gaming Platform
 **Authors**:
 <details span>
 <summary><b>Abstract</b></summary>
@@ -769,7 +769,7 @@ Using subjective testing, we study the effect of the network parameters, delay a
 
 <br>
 
-### 9. Playing High-End Video Games in the Cloud: A Measurement Study
+### 10. Playing High-End Video Games in the Cloud: A Measurement Study
 **Authors**:
 <details span>
 <summary><b>Abstract</b></summary>
@@ -780,7 +780,7 @@ Using subjective testing, we study the effect of the network parameters, delay a
 
 <br>
 
-### 10. The Effects of Latency, Bandwidth, and Packet Loss on Cloud-Based Gaming Services
+### 11. The Effects of Latency, Bandwidth, and Packet Loss on Cloud-Based Gaming Services
 **Authors**:
 <details span>
 <summary><b>Abstract</b></summary>
