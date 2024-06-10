@@ -3,6 +3,11 @@
 A curated list of papers and open-source resources focused on CloudXR. If you have any additions or suggestions, feel free to contribute. Additional resources like blog posts, videos, etc. are also welcome.
 
 ## Table of contents
+
+<br>
+
+- [Books](#books)
+
 <br>
 
 - [Architecture](#architecture)
@@ -22,11 +27,20 @@ A curated list of papers and open-source resources focused on CloudXR. If you ha
 
 - [Implementations](#implementations)
 
-<br>
-
-- [Books](#books)
 
 <br>
+
+
+## Books
+
+《云游戏：5G开启数字娱乐新时代》,《云化虚拟现实技术与应用》
+
+<img src=./images/cloudgaming.jpg height=600 />
+<img src=./images/cloudvr.jpg height=600 />
+
+<br>
+
+
 
 ## Architecture
 
@@ -936,19 +950,3 @@ Cloud gaming is promising to provide high-quality game services by outsourcing g
 ## Implementations
 
 <br>
-
-## Books
-
-《云游戏：5G开启数字娱乐新时代》
-![这是图片](./images/cloudgaming.jpg "云游戏：5G开启数字娱乐新时代")
-
-
-
-《云化虚拟现实技术与应用》
-![这是图片](./images/cloudvr.jpg "云化虚拟现实技术与应用")
-
-<br>
-
-## Credits
-
-- Thanks to 
