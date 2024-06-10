@@ -939,6 +939,14 @@ Cloud gaming is promising to provide high-quality game services by outsourcing g
 
 ## Books
 
+《云游戏：5G开启数字娱乐新时代》
+![这是图片](./images/cloudgaming.jpg "云游戏：5G开启数字娱乐新时代")
+
+
+
+《云化虚拟现实技术与应用》
+![这是图片](./images/cloudvr.jpg "云化虚拟现实技术与应用")
+
 <br>
 
 ## Credits
