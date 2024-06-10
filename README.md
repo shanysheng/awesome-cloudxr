@@ -12,10 +12,10 @@ A curated list of papers and open-source resources focused on CloudXR. If you ha
 - [Dataset](#dataset)
 - [Edge 5G](#edge-5g)
 - [Latency](#latency)
-- [Platform](#platform)
-- [QoS](#qos)
 - [QoE](#qoe)
+- [QoS](#qos)
 - [Streaming](#streaming)
+- [Survey](#survey)
 - [Virtulized](#virtulized)
 
 
@@ -43,7 +43,18 @@ This thesis presents a fully functional remote streaming web-based 3D visualizat
 
 <br>
 
-### 2. GamingAnywhere: an open cloud gaming system 
+### 2. Cloud gaming: architecture and performance
+**Authors**: R. Shea, Jiangchuan Liu, E. Ngai, Yong Cui
+<details span>
+<summary><b>Abstract</b></summary>
+Recent advances in cloud technology have turned the idea of Cloud Gaming into a reality. Cloud Gaming, in its simplest form, renders an interactive gaming application remotely in the cloud and streams the scenes as a video sequence back to the player over the Internet. This is an advantage for less powerful computational devices that are otherwise incapable of running high quality games. Such industrial pioneers as Onlive and Gaikai have seen success in the market with large user bases. In this article, we conduct a systematic analysis of state-of-theart cloud gaming platforms, and highlight the uniqueness of their framework design. We also measure their real world performance with different types of games, for both interaction latency and streaming quality, revealing critical challenges toward the widespread deployment of Cloud Gaming.
+</details>
+
+ [📄 Paper](https://www.sfu.ca/~rws1/papers/Cloud-Gaming-Architecture-and-Performance.pdf) 
+
+<br>
+
+### 3. GamingAnywhere: an open cloud gaming system 
 **Authors**: Chun-Ying Huang, Cheng-Hsin Hsu, Yu-Chun Chang, and Kuan-Ta Chen
 <details span>
 <summary><b>Abstract</b></summary>
@@ -54,7 +65,7 @@ GamingAnywhere is an open-source clouding gaming platform. In addition to its op
 
 <br>
 
-### 3. GamingAnywhere: An Open-Source Cloud Gaming Testbed 
+### 4. GamingAnywhere: An Open-Source Cloud Gaming Testbed 
 **Authors**: Chun-Ying Huang, De-Yu Chen, Cheng-Hsin Hsu, and Kuan-Ta Chen
 <details span>
 <summary><b>Abstract</b></summary>
@@ -65,7 +76,7 @@ While cloud gaming opens new business opportunity, it also poses tremendous chal
 
 <br>
 
-### 4. GamingAnywhere—The First Open Source Cloud Gaming System
+### 5. GamingAnywhere—The First Open Source Cloud Gaming System
 **Authors**: CHUN-YING HUANG, National Taiwan Ocean University, Taiwan KUAN-TA CHEN, Academia Sinica, Taiwan DE-YU CHEN, Academia Sinica, Taiwan HWAI-JUNG HSU, Academia Sinica, Taiwan CHENG-HSIN HSU, National Tsing Hua University, Taiwan
 <details span>
 <summary><b>Abstract</b></summary>
@@ -76,7 +87,7 @@ We present the first open source cloud gaming system, called GamingAnywhere. In 
 
 <br>
 
-### 5. LiveRender: A Cloud Gaming System Based on Compressed Graphics Streaming
+### 6. LiveRender: A Cloud Gaming System Based on Compressed Graphics Streaming
 **Authors**: Li Lin Xiaofei Liao  Guang Tan Hai Jin Xiaobin Yang Wei Zhang Bo Li
 <details span>
 <summary><b>Abstract</b></summary>
@@ -87,7 +98,7 @@ In cloud gaming systems, the game program runs at servers in the cloud, while cl
 
 <br>
 
-### 6. Nebula: Reliable Low-latency Video Transmission for Mobile Cloud Gaming
+### 7. Nebula: Reliable Low-latency Video Transmission for Mobile Cloud Gaming
 **Authors**: Ahmad Alhilal (1), Tristan Braud (1), Bo Han (2), Pan Hui (1) ((1) Hong Kong University of Science and Technology (2) George Mason University)
 <details span>
 <summary><b>Abstract</b></summary>
@@ -98,7 +109,7 @@ Mobile cloud gaming enables high-end games on constrained devices by streaming t
 
 <br>
 
-### 7. Next Generation Mobile Cloud Gaming
+### 8. Next Generation Mobile Cloud Gaming
 **Authors**: Wei Cai, Victor C.M. Leung Min Chen
 <details span>
 <summary><b>Abstract</b></summary>
@@ -460,22 +471,85 @@ Public edge platforms have drawn increasing attention from both academia and ind
 
 <br>
 
+### 4. Improving Cloud Gaming Experience through Mobile Edge Computing
+**Authors**: Xu Zhang, Hao Chen, Yangchao Zhao, Zhan Ma, Yiling Xu, Haojun Huang, H. Yin, Dapeng Oliver Wu
+<details span>
+<summary><b>Abstract</b></summary>
+With the development of 4G/5G technology and smart devices, more and more users begin to play games via their mobile devices. As a promising way to enable users to play any games, cloud gaming is proposed to stream game scene rendered remotely in the cloud with the format of video. However, it faces major challenges in terms of long delay and high network bandwidth. To this end, a novel framework named EdgeGame is proposed to improve the cloud gaming experience by leveraging resources in the edge. Compared to existing cloud gaming systems, EdgeGame offloads the computation-intensive rendering to the network edge instead, which can reduce network delay and bandwidth consumption greatly. Moreover, EdgeGame introduces deep reinforcement learning in the edge to adjust the video bitrates adaptively to accommodate the network dynamics. Finally, we implemented a prototype system and compared it with an existing cloud gaming system. The experiments show that EdgeGame can reduce the average network delay by 50 percent and improve user's QoE by 20 percent.
+</details>
+
+ [📄 Paper](https://www.researchgate.net/profile/Haojun-Huang-2/publication/344771771_Improving_Cloud_Gaming_Experience_through_Mobile_Edge_Computing/links/643e961f39aa471a524890e8/Improving-Cloud-Gaming-Experience-through-Mobile-Edge-Computing.pdf) 
 
 <br>
 
 ## Latency
 
-<br>
+### 1. A Measurement Study on Achieving Imperceptible Latency in Mobile Cloud Gaming
+**Authors**: Teemu Kämäräinen, M. Siekkinen, Antti Ylä-Jääski, Wenxiao Zhang, P. Hui
+<details span>
+<summary><b>Abstract</b></summary>
+Cloud gaming is a relatively new paradigm in which the game is rendered in the cloud and is streamed to an end-user device through a thin client. Latency is a key challenge for cloud gaming. In order to optimize the end-to-end latency, it is first necessary to understand how the end-to-end latency builds up from the mobile device to the cloud gaming server. In this paper we dissect the delays occurring in the mobile device and measure access delays in various networks and network conditions. We also perform a Europe-wide latency measurement study to find the optimal server locations and see how the number of server locations affects the network delay. The results are compared to limits found for perceivable delays in recent human-computer interaction studies. We show that the limits can be achieved only with the latest mobile devices with specific control methods. In addition, we study the expected latency reduction by near future technological development and show that its potential impact is bigger on the end-to-end latency than that of replication of the service and server placement optimization.
+</details>
+
+ [📄 Paper](https://pdfs.semanticscholar.org/b43f/9c0a6e424c2730265a2f42bd66c441092c0e.pdf) 
+
+
+### 2. A System for Precise End-to-End Delay Measurements in Video Communication.
+**Authors**: Christoph Bachhuber, E. Steinbach
+<details span>
+<summary><b>Abstract</b></summary>
+Ultra low delay video transmission is becoming increasingly important. Video-based applications with ultra low delay requirements range from teleoperation scenarios such as controlling drones or telesurgery to autonomous control of dynamic processes using computer vision algorithms applied on real-time video. To evaluate the performance of the video transmission chain in such systems, it is important to be able to precisely measure the glass-to-glass (G2G) delay of the transmitted video. In this paper1, we present a lowcomplexity system that takes a series of pairwise independent measurements of G2G delay and derives performance metrics such as mean delay or minimum delay etc. from the data. The precision is in the sub-millisecond range, mainly limited by the sampling rate of the measurement system. In our implementation, we achieve a G2G measurement precision of 0.5 milliseconds with a sampling rate of 2kHz.
+</details>
+
+ [📄 Paper](https://arxiv.org/pdf/1510.01134) 
 
 <br>
 
-## Platform
+### 3. Delay-Sensitive Video Computing in the Cloud: A Survey
+**Authors**: M. Abdallah, C. Griwodz, Kuan-Ta Chen, G. Simon, Pin-Chun Wang, Cheng-Hsin Hsu
+<details span>
+<summary><b>Abstract</b></summary>
+While cloud servers provide a tremendous amount of resources for networked video applications, most successful stories of cloud-assisted video applications are presentational video services, such as YouTube and NetFlix. This article surveys the recent advances on delay-sensitive video computations in the cloud, which are crucial to cloud-assisted conversational video services, such as cloud gaming, Virtual Reality (VR), Augmented Reality (AR), and telepresence. Supporting conversational video services with cloud resources is challenging because most cloud servers are far away from the end users while these services incur the following stringent requirements: high bandwidth, short delay, and high heterogeneity. In this article, we cover the literature with a top-down approach: from applications and experience, to architecture and management, and to optimization in and outside of the cloud. We also point out major open challenges, hoping to stimulate more research activities in this emerging and exciting direction.
+</details>
+
+ [📄 Paper](https://people.computing.clemson.edu/~jmarty/projects/lowLatencyNetworking/papers/RecentInternetMeasurementResearch/DelaySensitiveVideoComputingIntheCloud.pdf) 
 
 <br>
 
+
+
+### 4. Measuring the latency of cloud gaming systems
+**Authors**: Kuan-Ta Chen, Yu-Chun Chang, P. Tseng, Chun-Ying Huang, C. Lei
+<details span>
+<summary><b>Abstract</b></summary>
+Cloud gaming, i.e., real-time game playing via thin clients, relieves players from the need to constantly upgrade their computers and deal with compatibility issues when playing games. As a result, cloud gaming is generating a great deal of interest among entrepreneurs and the public. However, given the large design space, it is not yet known which platforms deliver the best quality of service and which design elements constitute a good cloud gaming system. This study is motivated by the question: How good is the real-timeliness of current cloud gaming systems? To address the question, we analyze the response latency of two cloud gaming platforms, namely, OnLive and StreamMyGame. Our results show that the streaming latency of OnLive is reasonable for real-time cloud gaming, while that of StreamMyGame is almost twice the former when the StreamMyGame server is provisioned using an Intel Core i7-920 PC. We believe that our measurement approach can be generally applied to PC-based cloud gaming platforms, and that it will further the understanding of such systems and lead to improvements.
+</details>
+
+ [📄 Paper](https://scholar.archive.org/work/26zari3d2vc77mcpiykzkvdxxy/access/wayback/http://mmnet.iis.sinica.edu.tw/pub/chen11_cloudgaming.pdf) 
+
 <br>
 
-## QoS
+
+### 5. The brewing storm in cloud gaming: a measurement study on cloud to end-user latency
+**Authors**: Sharon Choy, B. Wong, G. Simon, C. Rosenberg
+<details span>
+<summary><b>Abstract</b></summary>
+Cloud computing has been a revolutionary force in changing the way organizations deploy web applications and services. However, many of cloud computing's core design tenets, such as consolidating resources into a small number of datacenters and fine-grain partitioning of general purpose computing resources, conflict with an emerging class of multimedia applications that is highly latency sensitive and requires specialized hardware, such as graphic processing units (GPUs) and fast memory. In this paper, we look closely at one such application, namely, on-demand gaming (also known as cloud gaming), that has the potential to radically change the multi-billion dollar video game industry. We demonstrate through a large-scale measurement study that the current cloud computing infrastructure is unable to meet the strict latency requirements necessary for acceptable game play for many end-users, thus limiting the number of potential users for an on-demand gaming service. We further investigate the impact of augmenting the current cloud infrastructure with servers located near the end-users, such as those found in content distribution networks, and show that the user coverage significantly increases even with the addition of only a small number of servers.
+</details>
+
+ [📄 Paper](https://ece.uwaterloo.ca/~cath/edgecloud.pdf) 
+
+<br>
+
+
+### 6. The Effects of Latency in Commercial Cloud Video Gaming Services
+**Authors**: V Courtemanche, A Desveaux 
+<details span>
+<summary><b>Abstract</b></summary>
+Video games are typically played on a device such as a computer, console, or phone,with most of the computation on the local hardware. Cloud gaming services which take overmost computation have been rising in popularity as a potentially viable alternative to traditionalgaming. However, cloud gaming services are more susceptible to latency, since player inputsare sent to cloud servers, and video is then streamed back to the player's client. Our projectevaluated two recently released cloud gaming services (Blade Shadow and Google Stadia) todetermine how they were affected by increased latency and packet loss. We performed a userstudy with different added latency values to test player performance and quality of experiencefor each service. We then performed network experiments analyzing the effects of addedlatency and packet loss on bitrates. Analysis of 37 users shows that user performance andquality of experience decreased with higher added latency for both services. Shadow usedsignificantly more bandwidth than Stadia but had better graphics quality.
+</details>
+
+ [📄 Paper](http://web.cs.wpi.edu/~claypool/iqp/cloudgame-19/report.pdf)
 
 <br>
 
@@ -483,11 +557,247 @@ Public edge platforms have drawn increasing attention from both academia and ind
 
 ## QoE
 
+### 1. A game attention model for efficient bit rate allocation in cloud gaming
+**Authors**:H. Ahmadi, Saman Zad Tootaghaj, M. Hashemi, S. Shirmohammadi
+<details span>
+<summary><b>Abstract</b></summary>
+The widespread availability of broadband internet access and the growth in server-based processing have provided an opportunity to run games away from the player into the cloud and offer a new promising service known as cloud gaming. The concept of cloud gaming is to render a game in the cloud and stream the resulting game scenes to the player as a video sequence over a broadband connection. To meet the stringent network bandwidth requirements of cloud gaming and support more players, efficient bit rate reduction techniques are needed. In this paper, we introduce the concept of game attention model (GAM), which is basically a game context-based visual attention model, as a means for reducing the bit rate of the streaming video more efficiently. GAM estimates the importance of each macro-block in a game frame from the player's perspective and allows encoding the less important macro-blocks with lower bit rate. We have evaluated nine game video sequences, covering a wide range of game genre and a spectrum of scene content in terms of details, motion and brightness. Our subjective assessment shows that by integrating this model into the cloud gaming framework, it is possible to decrease the required bit rate by nearly 25 % on average, while maintaining a relatively high user quality of experience. This clearly enables players with limited communication resources to benefit from cloud gaming with acceptable quality.
+</details>
+
+ [📄 Paper](http://www.eiti.uottawa.ca/~shervin/pubs/GameStreaming-Springer-MMSJ.pdf)
+
 <br>
+
+### 2. An Evaluation of QoE in Cloud Gaming Based on Subjective Tests
+**Authors**:M. Jarschel, D. Schlosser, Sven Scheuring, T. Hossfeld
+<details span>
+<summary><b>Abstract</b></summary>
+Cloud Gaming is a new kind of service, which combines the successful concepts of Cloud Computing and Online Gaming. It provides the entire game experience to the users remotely from a data center. The player is no longer dependent on a specific type or quality of gaming hardware, but is able to use common devices. The end device only needs a broadband internet connection and the ability to display High Definition (HD) video. While this may reduce hardware costs for users and increase the revenue for developers by leaving out the retail chain, it also raises new challenges for service quality in terms of bandwidth and latency for the underlying network. In this paper we present the results of a subjective user study we conducted into the user-perceived quality of experience (QoE) in Cloud Gaming. We design a measurement environment, that emulates this new type of service, define tests for users to assess the QoE, derive Key Influence Factors (KFI) and influences of content and perception from our results.
+</details>
+
+ [📄 Paper](https://www.researchgate.net/profile/Tobias-Hossfeld/publication/215752557_An_Evaluation_of_QoE_in_Cloud_Gaming_Based_on_Subjective_Tests/links/0deec51c8aaf49b67a000000/An-Evaluation-of-QoE-in-Cloud-Gaming-Based-on-Subjective-Tests.pdf)
+
+<br>
+
+### 3. Analysis and QoE evaluation of cloud gaming service adaptation under different network conditions: The case of NVIDIA GeForce NOW
+**Authors**:M. Suznjevic, Iva Slivar, L. Skorin-Kapov
+<details span>
+<summary><b>Abstract</b></summary>
+Cloud gaming represents a highly interactive service whereby game logic is rendered in the cloud and streamed as a video to end devices. While benefits include the ability to stream high-quality graphics games to practically any end user device, drawbacks include high bandwidth requirements and very low latency. Consequently, a challenge faced by cloud gaming service providers is the design of algorithms for adapting video streaming parameters to meet the end user system and network resource constraints. In this paper, we conduct an analysis of the commercial NVIDIA GeForce NOW game streaming platform adaptation mechanisms in light of variable network conditions. We further conduct an empirical user study involving the GeForce NOW platform to assess player Quality of Experience when such adaptation mechanisms are employed. The results provide insight into limitations of the currently deployed mechanisms, as well as aim to provide input for the proposal of designing future video encoding adaptation strategies.
+</details>
+
+ [📄 Paper](http://www.fer.unizg.hr/_news/66573/QoMEX_2016.pdf)
+
+<br>
+
+### 4. On the Quality of Service of Cloud Gaming Systems
+**Authors**:Kuan-Ta Chen, Yu-Chun Chang, Hwai-Jung Hsu, De-Yu Chen, Chun-Ying Huang, Cheng-Hsin Hsu
+<details span>
+<summary><b>Abstract</b></summary>
+Cloud gaming, i.e., real-time game playing via thin clients, relieves users from being forced to upgrade their computers and resolve the incompatibility issues between games and computers. As a result, cloud gaming is generating a great deal of interests among entrepreneurs, venture capitalists, general publics, and researchers. However, given the large design space, it is not yet known which cloud gaming system delivers the best user-perceived Quality of Service (QoS) and what design elements constitute a good cloud gaming system.This study is motivated by the question: How good is the QoS of current cloud gaming systems? Answering the question is challenging because most cloud gaming systems are proprietary and closed, and thus their internal mechanisms are not accessible for the research community. In this paper, we propose a suite of measurement techniques to evaluate the QoS of cloud gaming systems and prove the effectiveness of our schemes using a case study comprising two well-known cloud gaming systems: OnLive and StreamMyGame. Our results show that OnLive performs better, because it provides adaptable frame rates, better graphic quality, and shorter server processing delays, while consuming less network bandwidth. Our measurement techniques are general and can be applied to any cloud gaming systems, so that researchers, users, and service providers may systematically quantify the QoS of these systems. To the best of our knowledge, the proposed suite of measurement techniques have never been presented in the literature.
+</details>
+
+ [📄 Paper](https://homepage.iis.sinica.edu.tw/~swc/pub/qos_cloud_gaming_systems.html)
+
+<br>
+
+### 5. Delay Sensitivity Classification of Cloud Gaming Content
+**Authors**:S. Sabet, Steven Schmidt, Saman Zadtootaghaj, C. Griwodz, Sebastian Möller
+<details span>
+<summary><b>Abstract</b></summary>
+Cloud Gaming is an emerging service that catches growing interestin the research community as well as industry. Cloud Gamingrequire a highly reliable and low latency network to achieve asatisfying Quality of Experience (QoE) for its users. Using a cloudgaming service with high latency would harm the interaction of theuser with the game, leading to a decrease in playing performanceand, thus players frustrations. However, the negative effect of delayon gaming QoE depends strongly on the game content. At a certainlevel of delay, a slow-paced card game is typically not as delaysensitive as a shooting game. For optimal resource allocation andquality estimation, it is highly important for cloud providers, gamedevelopers, and network planners to consider the impact of thegame content. This paper contributes to a better understanding ofthe delay impact on QoE for cloud gaming applications byidentifying game characteristics influencing the delay perception ofthe users. In addition, an expert evaluation methodology to quantifythese characteristics as well as a delay sensitivity classificationbased on a decision tree are presented. The results indicated anexcellent level of agreement, which demonstrates the reliability ofthe proposed method. Additionally, the decision tree reached anaccuracy of 90% on determining the delay sensitivity classes whichwere derived from a large dataset of subjective input quality ratingsduring a series of experiments.
+</details>
+
+ [📄 Paper](https://arxiv.org/abs/2004.05609)
+
+<br>
+
+### 6. Game Categorization for Deriving QoE-Driven Video Encoding Configuration Strategies for Cloud Gaming
+**Authors**:Iva Slivar, M. Sužnjević, Lea Skorin-Kapov
+<details span>
+<summary><b>Abstract</b></summary>
+Cloud gaming has been recognized as a promising shift in the online game industry, with the aim of implementing the "on demand" service concept that has achieved market success in other areas of digital entertainment such as movies and TV shows. The concepts of cloud computing are leveraged to render the game scene as a video stream that is then delivered to players in real-time. The main advantage of this approach is the capability of delivering high-quality graphics games to any type of end user device; however, at the cost of high bandwidth consumption and strict latency requirements. A key challenge faced by cloud game providers lies in configuring the video encoding parameters so as to maximize player Quality of Experience (QoE) while meeting bandwidth availability constraints. In this article, we tackle one aspect of this problem by addressing the following research question: Is it possible to improve service adaptation based on information about the characteristics of the game being streamed? To answer this question, two main challenges need to be addressed: the need for different QoE-driven video encoding (re-)configuration strategies for different categories of games, and how to determine a relevant game categorization to be used for assigning appropriate configuration strategies. We investigate these problems by conducting two subjective laboratory studies with a total of 80 players and three different games. Results indicate that different strategies should likely be applied for different types of games, and show that existing game classifications are not necessarily suitable for differentiating game types in this context. We thus further analyze objective video metrics of collected game play video traces as well as player actions per minute and use this as input data for clustering of games into two clusters. Subjective results verify that different video encoding configuration strategies may be applied to games belonging to different clusters.
+</details>
+
+ [📄 Paper](https://tel.fer.hr/images/50020394/ACM%20TOMM%20Game%20Categorization%20QoE-Driven%20Video%20Encoding%20Configuration%20Cloud%20Gaming_PREPRINT.pdf)
+
+<br>
+
+### 7. Latency impact on Quality of Experience in a virtual reality simulator for remote control of machines
+**Authors**:
+<details span>
+<summary><b>Abstract</b></summary>
+In this article, we have investigated a VR simulator of a forestry crane used for loading logs onto a truck. We have mainly studied the Quality of Experience (QoE) aspects that may be relevant for task completion, and whether there are any discomfort related symptoms experienced during the task execution. QoE experiments were designed to capture the general subjective experience of using the simulator, and to study task performance. The focus was to study the effects of latency on the subjective experience, with regards to delays in the crane control interface. Subjective studies were performed with controlled delays added to the display update and hand controller (joystick) signals. The added delays ranged from 0 to 30 ms for the display update, and from 0 to 800 ms for the hand controller. We found a strong effect on latency in the display update and a significant negative effect for 800 ms added delay on latency in the hand controller (in total approx. 880 ms latency including the system delay). The Simulator Sickness Questionnaire (SSQ) gave significantly higher scores after the experiment compared to before the experiment, but a majority of the participants reported experiencing only minor symptoms. Some test subjects ceased the test before finishing due to their symptoms, particularly due to the added latency in the display update.
+</details>
+
+ [📄 Paper](https://www.academia.edu/download/64667759/RMVis_1347_Latency_impact_on_QoE_1-s2.0-S0923596520301648-main.pdf)
+
+<br>
+
+### 8. Modeling Gaming QoE: Towards the Impact of Frame Rate and Bit Rate on Cloud Gaming
+**Authors**:Saman Zadtootaghaj, Steven Schmidt, Sebastian Möller
+<details span>
+<summary><b>Abstract</b></summary>
+Recent advances of streaming services and the upcoming new generation of mobile networks, 5G, offering low end-to-end delay as well as high bandwidths, promise a bright future for cloud gaming applications. Cloud gaming, in the contrary to traditional gaming services, suffers not only from system factors on the client, but is also affected significantly by the network, server specification and encoding parameters. In this paper, we present the results of a subjective experiment aiming to investigate the impact of two influencing factors, frame rate and bit rate, on the gaming Quality of Experience. The results reveal that a trade-off between an acceptable video quality and interaction quality exists. In case of very low bit rates, lowering the frame rate can improve the video quality while at some point, jerkiness becomes visible which affects the video quality negatively and the control over the game will be strongly reduced. Furthermore, even though in the gaming community a frame rate of 60 fps is desired, no significant difference for quality ratings, as well as performance ratings, was found between 60 fps and 25 fps. Therefore, it would be highly valuable for service providers to find an ideal strategy for this issue. In addition, we investigate the impact of video encoding on gaming experience dimensions. Finally, a first attempt to model the impact of two influencing factors on overall quality will be presented.
+</details>
+
+ [📄 Paper](https://ieeexplore.ieee.org/document/8463416)
+
+<br>
+
+### 9. Perceived order in different sense modalities.
+**Authors**:I. Hirsh, C. Sherrick
+<details span>
+<summary><b>Abstract</b></summary>
+
+</details>
+
+ [📄 Paper]()
+
+<br>
+
+### 10. Quality of experience (QoE) in cloud gaming models: A review
+**Authors**:Asif Ali Laghari, Hui He, K. A. Memon, Rashid Ali Laghari, I. A. Halepoto, Asiya Khan
+<details span>
+<summary><b>Abstract</b></summary>
+Cloud gaming is a new way of online gaming, which renders the game data on the cloud side instead of the end user's system and is forwarded via a high-speed network. In cloud gaming; game software and emulators run on the high-speed server of cloud and services available for users on the commercial and free basis. Users can use rendered data of game from the cloud using thin heterogeneous devices via the Internet to play the game anytime and anywhere. The popularity of cloud gaming has increased since the late 2000s which attract the industry and academia. Quality of experience (QoE) domain has been added in cloud gaming models to assess user satisfaction, enjoyment, and needs during online gaming. In this research paper; we survey and analyze the previous cloud gaming models and models and offer aspects of future development; which will help to give the quality of service (QoS) according to service level agreement (SLA) and increase user satisfaction level for cloud gaming, hence, improving the overall QoE.
+</details>
+
+ [📄 Paper](https://pearl.plymouth.ac.uk/bitstream/handle/10026.1/14894/cloud%20Gaming%20Review.pdf?sequence=1)
+
+<br>
+
+
+### 11. Subjective quality assessment for cloud gaming
+**Authors**:Abdul Wahab, Nafi Ahmad, M. Martini, J. Schormans
+<details span>
+<summary><b>Abstract</b></summary>
+Using subjective testing, we study the effect of the network parameters, delay and packet loss ratio, on the QoE of cloud gaming. We studied three different games, selected based on genre, popularity, content complexity and pace, and tested them in a controlled network environment, using a novel emulator to create realistic lognormal delay distributions instead of relying on a static mean delay, as used previously; we also used Parsec as a good representative of the state of the art. We captured user ratings on an ordinal Absolute Category Rating scale for three quality dimensions: Video QoE, Game-Playability QoE, and Overall QoE. We show that Mean Opinion Scores (MOS) for the game with the highest levels of content complexity and pace are most severely affected by network impairments. We also show that the QoE of interactive cloud applications rely more on the game playability than the video quality of the game. Unlike earlier studies, the differences in MOS are validated using the distributions of the underlying dimensions. A Wilcoxon Signed-Rank test showed that the distributions of Video QoE and Game Playability QoE are not significantly differen.
+</details>
+
+ [📄 Paper](https://pdfs.semanticscholar.org/b882/84bfa3176671f7cebcc7c71225d2e2c1a24a.pdf)
+
+<br>
+
+## QoS
+
+### 1. A First Look at the Network Turbulence for Google Stadia Cloud-based Game Streaming
+**Authors**:
+<details span>
+<summary><b>Abstract</b></summary>
+
+</details>
+
+ [📄 Paper]()
+
+<br>
+
+### 2. A network analysis on cloud gaming: Stadia, GeForce Now and PSNow
+**Authors**:
+<details span>
+<summary><b>Abstract</b></summary>
+
+</details>
+
+ [📄 Paper]()
+
+<br>
+
+### 3. A survey on quality of service in cloud computing
+**Authors**:
+<details span>
+<summary><b>Abstract</b></summary>
+
+</details>
+
+ [📄 Paper]()
+
+<br>
+
+### 4. An Analysis of Cloud Gaming Platforms Behavior under Different Network Constraints
+**Authors**:
+<details span>
+<summary><b>Abstract</b></summary>
+
+</details>
+
+ [📄 Paper]()
+
+<br>
+
+### 5. Cloud-gaming: Analysis of Google Stadia traffic.
+**Authors**:
+<details span>
+<summary><b>Abstract</b></summary>
+
+</details>
+
+ [📄 Paper]()
+
+<br>
+
+### 6. Demystifying the Largest Live Game Streaming Platform via Black-Box Measurement
+**Authors**:
+<details span>
+<summary><b>Abstract</b></summary>
+
+</details>
+
+ [📄 Paper]()
+
+<br>
+
+### 7. Measuring Key Quality Indicators in Cloud Gaming: Framework and Assessment Over Wireless Networks
+**Authors**:
+<details span>
+<summary><b>Abstract</b></summary>
+
+</details>
+
+ [📄 Paper]()
+
+<br>
+
+### 8. Performance Measurements on a Cloud VR Gaming Platform
+**Authors**:
+<details span>
+<summary><b>Abstract</b></summary>
+
+</details>
+
+ [📄 Paper]()
+
+<br>
+
+### 9. Playing High-End Video Games in the Cloud: A Measurement Study
+**Authors**:
+<details span>
+<summary><b>Abstract</b></summary>
+
+</details>
+
+ [📄 Paper]()
+
+<br>
+
+### 10. The Effects of Latency, Bandwidth, and Packet Loss on Cloud-Based Gaming Services
+**Authors**:
+<details span>
+<summary><b>Abstract</b></summary>
+
+</details>
+
+ [📄 Paper]()
 
 <br>
 
 ## Streaming
+
+<br>
+
+<br>
+
+## Survey
 
 <br>
 
