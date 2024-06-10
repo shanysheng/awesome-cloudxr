@@ -35,8 +35,8 @@ A curated list of papers and open-source resources focused on CloudXR. If you ha
 
 《云游戏：5G开启数字娱乐新时代》,《云化虚拟现实技术与应用》
 
-<img src=./images/cloudgaming.jpg height=600 />
-<img src=./images/cloudvr.jpg height=600 />
+<img src=./images/cloudgaming.jpg height=400 />
+<img src=./images/cloudvr.jpg height=400 />
 
 <br>
 
