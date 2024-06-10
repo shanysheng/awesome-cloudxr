@@ -37,6 +37,8 @@ A curated list of papers and open-source resources focused on CloudXR. If you ha
 - [MOONLIGHT -- OPEN SOURCE NVIDIA GAMESTREAM CLIENT](https://moonlight-stream.org/)
 - [Nvidia CloudXR](https://www.nvidia.com/en-us/design-visualization/solutions/cloud-xr/)
 - [NVIDIA Video Codec SDK](https://developer.nvidia.com/video-codec-sdk)
+- [OpenVR SDK](https://github.com/ValveSoftware/openvr)
+- [SteamVR](https://www.steamvr.com/zh-cn/)
 - [Unity Render Streaming](https://github.com/Unity-Technologies/UnityRenderStreaming)
 - [Unreal Pixel Streaming](https://dev.epicgames.com/documentation/en-us/unreal-engine/pixel-streaming-in-unreal-engine)
 - [WebRTC](https://github.com/webrtc)
