@@ -2,36 +2,28 @@
 
 A curated list of papers and open-source resources focused on CloudXR. If you have any additions or suggestions, feel free to contribute. Additional resources like blog posts, videos, etc. are also welcome.
 
-## Table of contents
-
-<br>
+# Table of contents
 
 - [Books](#books)
-
-<br>
-
-- [Architecture](#architecture)
-- [Business](#business)
-- [CloudGaming](#cloudgaming)
-- [CloudXR](#cloudxr)
-- [Dataset](#dataset)
-- [Edge 5G](#edge-5g)
-- [Latency](#latency)
-- [QoE](#qoe)
-- [QoS](#qos)
-- [Streaming](#streaming)
-- [Survey](#survey)
-- [Virtulized](#virtulized)
-
-<br>
-
 - [Implementations](#implementations)
-
+- [Papers](#Papers)
+- - [Architecture](#architecture)
+- - [Business](#business)
+- - [CloudGaming](#cloudgaming)
+- - [CloudXR](#cloudxr)
+- - [Dataset](#dataset)
+- - [Edge 5G](#edge-5g)
+- - [Latency](#latency)
+- - [QoE](#qoe)
+- - [QoS](#qos)
+- - [Streaming](#streaming)
+- - [Survey](#survey)
+- - [Virtulized](#virtulized)
 
 <br>
 
 
-## Books
+# Books
 
 《云游戏：5G开启数字娱乐新时代》,《云化虚拟现实技术与应用》
 
@@ -39,7 +31,14 @@ A curated list of papers and open-source resources focused on CloudXR. If you ha
 
 <br>
 
+# Implementations
+- [ALVR--Air Light VR](https://github.com/alvr-org/ALVR)
+- [Nvidia CloudXR](https://www.nvidia.com/en-us/design-visualization/solutions/cloud-xr/)
+- [金山云边缘计算团队--鎏光云游戏引擎](https://github.com/ksyun-kenc/liuguang)
 
+<br>
+
+# Papers
 
 ## Architecture
 
@@ -943,9 +942,5 @@ In cloud gaming the game is rendered on a distant cloud server and the resulting
 <summary><b>Abstract</b></summary>
 Cloud gaming is promising to provide high-quality game services by outsourcing game execution to cloud so that users can access games via thin clients (e.g., smartphones or tablets). However, existing cloud gaming systems suffer from low GPU utilization in the virtualized environment. Moreover, GPU resources are scheduled in units of virtual machines (VMs) and this kind of coarse-grained scheduling at the VM-level fails to fully exploit GPU processing capacity. In this paper, we present ShareRender, a cloud gaming system that offloads graphics workloads within VMs directly to GPUs, bypassing GPU virtualization. For each game running in a VM, ShareRender starts a graphics wrapper to intercept frame rendering requests and assign them to render agents responsible for frame rendering on GPUs. Thanks to the flexible workload assignment among multiple render agents, ShareRender enables fine-grained resource sharing at the frame-level to significantly improve GPU utilization. Furthermore, we design an online algorithm to determine workload assignment and migration of render agents, which considers the tradeoff between minimizing the number of active server and low agent migration cost. We conduct experiments on real deployment and trace-driven simulations to evaluate the performance of ShareRender under different system settings. The results show that ShareRender outperforms the existing video-streaming-based cloud gaming system by over 4 times.
 </details>
-
-<br>
-
-## Implementations
 
 <br>
