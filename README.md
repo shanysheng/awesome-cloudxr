@@ -18,15 +18,13 @@ A curated list of papers and open-source resources focused on CloudXR. If you ha
 - [Survey](#survey)
 - [Virtulized](#virtulized)
 
+<br>
 
+- [Implementations](#implementations)
 
 <br>
 
-
-- [Open Source Implementations](#open-source-implementations)
-  * [Reference](#reference)
-
-<br>
+- [Books](#books)
 
 <br>
 
@@ -671,79 +669,79 @@ Using subjective testing, we study the effect of the network parameters, delay a
 ## QoS
 
 ### 1. A First Look at the Network Turbulence for Google Stadia Cloud-based Game Streaming
-**Authors**:
+**Authors**:Xiaokun Xu, Mark Claypool
 <details span>
 <summary><b>Abstract</b></summary>
-
+While there have been network studies of traditional network games and streaming video, there is less work measuring cloud-based game streaming traffic and none on Google's Stadia. This paper presents experiments that provide a first look – measuring Stadia game traffic for several games, analyzing the bitrates, packet sizes and inter-packet times, and comparing the results to other applications. Results indicate Stadia, unlike traditional network game systems, rapidly sends large packets downstream and small packets upstream, similar to but still significantly different than video and at much higher rates than previous cloud-based game systems or video.
 </details>
 
- [📄 Paper]()
+ [📄 Paper](http://web.cs.wpi.edu/~claypool/papers/stadia-net-gi-21/paper.pdf)
 
 <br>
 
 ### 2. A network analysis on cloud gaming: Stadia, GeForce Now and PSNow
-**Authors**:
+**Authors**:A. Domenico, Gianluca Perna, Martino Trevisan, L. Vassio, Danilo Giordano
 <details span>
 <summary><b>Abstract</b></summary>
-
+Cloud gaming is a class of services that promises to revolutionize the videogame market. It allows the user to play a videogame with basic equipment while using a remote server for the actual execution. The multimedia content is streamed through the network from the server to the user. Hence, this service requires low latency and a large bandwidth to work properly with low response time and high-definition video. Three among the leading tech companies, (Google, Sony and NVIDIA) entered this market with their own products, and others, like Microsoft and Amazon, are planning to launch their own platforms in the near future. However, these companies released so far little information about their cloud gaming operation and how they utilize the network. In this work, we study cloud gaming services from the network point of view. We collect more than 200 packet traces under different application settings and network conditions from a broadband network up to poor mobile network conditions, for 3 cloud gaming services, namely Stadia from Google, GeForce Now from NVIDIA and PS Now from Sony. We analyze the employed protocols and the workload they impose on the network. We find that GeForce Now and Stadia use the RTP protocol to stream the multimedia content, with the latter relying on the standard WebRTC APIs. They result bandwidth-hungry and consume up to 45 Mbit/s, depending on the network and video quality. PS Nowinstead uses only undocumented protocols and never exceeds 13 Mbit/s. 4G mobile networks can often sustain these loads, while traditional 3G connections struggle. The systems quickly react to deteriorated network conditions, and packet losses up to 5% do not cause a reduction in resolution.
 </details>
 
- [📄 Paper]()
+ [📄 Paper](https://www.mdpi.com/2673-8732/1/3/15)
 
 <br>
 
 ### 3. A survey on quality of service in cloud computing
-**Authors**:
+**Authors**:M. Jelassi, C. Ghazel, L. Saïdane
 <details span>
 <summary><b>Abstract</b></summary>
-
+Cloud computing systems enables pay-perusage pricing model for computing services delivered to users across the globe over the internet. Currently the demand for cloud services has increased as enterprises and individuals have now migrated to the cloud and cloud providers need to offer services based on the expected quality requirements. One of the challenges posed by cloud application is quality of service (QoS) management, which is the problem of allocating resources to the applications to guarantee service based on performance, availability and reliability. In this paper, we have presented a survey on the quality of service in cloud computing with respect to techniques used, advantages and disadvantages.
 </details>
 
- [📄 Paper]()
+ [📄 Paper](https://www.researchgate.net/profile/Helen-Akpan/publication/282085451_A_Survey_on_Quality_of_Service_in_Cloud_Computing/links/56029f4208ae0b84c4d223c0/A-Survey-on-Quality-of-Service-in-Cloud-Computing.pdf)
 
 <br>
 
 ### 4. An Analysis of Cloud Gaming Platforms Behavior under Different Network Constraints
-**Authors**:
+**Authors**:Philippe Graff, Xavier Marchal, T. Cholez, Stéphane Tuffin, B. Mathieu, O. Festor
 <details span>
 <summary><b>Abstract</b></summary>
-
+With the recent technological evolutions in networks and increased deployment of multi-tier clouds, cloud gaming (CG) is gaining renewed interest and is expected to become a major Internet service in the upcoming years. Many companies have launched powerful platforms such as Google Stadia, Nvidia GeForce Now, Microsoft xCloud, Sony PlayStation Now among others, to attract players. However, for all end-users to fully enjoy their gaming sessions over the wide range of network access qualities, CG platforms must adapt their traffic. In this paper, we present the outcome of real-life measurements performed between April and July 2021 on the four aforementioned CG platforms, configuring different network constraints like packet loss, throughput decrease, latency increase and jitter variation to observe the behavior of these CG platforms under extreme network conditions. Our findings show that the four platforms exhibit different adaptation behaviors. Moreover, many cases result in a degraded QoS, leaving room for further improvements at both application and/or network levels.
 </details>
 
- [📄 Paper]()
+ [📄 Paper](https://scholar.archive.org/work/lrv62t56azhajlfhgxybkhsdj4/access/wayback/https://hal.inria.fr/hal-03421031/file/cloud_gamig_traffic_under_constraints_CR.pdf)
 
 <br>
 
 ### 5. Cloud-gaming: Analysis of Google Stadia traffic.
-**Authors**:
+**Authors**:Marc Carrascosa, B. Bellalta
 <details span>
 <summary><b>Abstract</b></summary>
-
+Interactive, real-time, and high-quality cloud video games pose a serious challenge to the Internet due to simultaneous high-throughput and low round trip delay requirements. In this paper, we investigate the traffic characteristics of Stadia, the cloud-gaming solution from Google, which is likely to become one of the dominant players in the gaming sector. To do that, we design several experiments, and perform an extensive traffic measurement campaign to obtain all required data. Our first goal is to gather a deep understanding of Stadia traffic characteristics by identifying the different protocols involved for both signalling and video/audio contents, the traffic generation patterns, and the packet size and inter-packet time probability distributions. Then, our second goal is to understand how different Stadia games and configurations, such as the video codec and the video resolution selected, impact on the characteristics of the generated traffic. Finally, we aim to evaluate the ability of Stadia to adapt to different link capacity conditions, including those cases where the capacity drops suddenly. Our results and findings, besides illustrating the characteristics of Stadia traffic, are also valuable for planning and dimensioning future networks, as well as for designing new resource management strategies.
 </details>
 
- [📄 Paper]()
+ [📄 Paper](https://repositori.upf.edu/handle/10230/55530)
 
 <br>
 
 ### 6. Demystifying the Largest Live Game Streaming Platform via Black-Box Measurement
-**Authors**:
+**Authors**:Xu Zhang, Kai Yang, Rongqi Zhang, Qilin Fan, Hong Tang, Zhan Ma
 <details span>
 <summary><b>Abstract</b></summary>
-
+Empowered by today's fast development of e-sports (Electronic Sports) games, more and more people are watching live-game-streaming through various platforms aside from playing by themselves. Understanding the characteristics of these platforms can benefit both the game viewers and the platform. However, the live game streaming platforms in China, which has the largest game market in terms of both the revenue and the total number of gamers in the world, are still under the veil of mystery. In this paper, we present an initial investigation on Douyu, the largest live game streaming platform in China. We inferred the platform's architecture and workflow by analyzing the captured traffic and crawled data. Moreover, we investigated the statistics and patterns from both the broadcasters' and viewers' perspectives. Compared with the world-wide live game streaming platform Twitch, the regional platform Douyu has more regular daily changes in online channels, which can provide insights for resource provisioning in the future system optimization. Based on the measurement, it is found that the top 7.5% of games have attracted 79.5% viewer's attention. Moreover, the number of mobile viewers have exceeded the number of PC viewers, taking up about 64.8% of the total viewer number. As the most popular mobile game in China, the game Arena of Valor (referred to as wzry in Douyu) has more than 4,500 simultaneous online broadcasters and accounting for 12.7% of the overall attention.
 </details>
 
- [📄 Paper]()
+ [📄 Paper](https://ieeexplore.ieee.org/abstract/document/9443678)
 
 <br>
 
 ### 7. Measuring Key Quality Indicators in Cloud Gaming: Framework and Assessment Over Wireless Networks
-**Authors**:
+**Authors**:O. S. Peñaherrera-Pulla, CÃ©sar Baena, Sergio Fortes Rodriguez, Eduardo Baena, R. Barco
 <details span>
 <summary><b>Abstract</b></summary>
-
+Cloud Gaming is a cutting-edge paradigm in the video game provision where the graphics rendering and logic are computed in the cloud. This allows a user's thin client systems with much more limited capabilities to offer a comparable experience with traditional local and online gaming but using reduced hardware requirements. In contrast, this approach stresses the communication networks between the client and the cloud. In this context, it is necessary to know how to configure the network in order to provide service with the best quality. To that end, the present work defines a novel framework for Cloud Gaming performance evaluation. This system is implemented in a real testbed and evaluates the Cloud Gaming approach for different transport networks (Ethernet, WiFi, and LTE (Long Term Evolution)) and scenarios, automating the acquisition of the gaming metrics. From this, the impact on the overall gaming experience is analyzed identifying the main parameters involved in its performance. Hence, the future lines for Cloud Gaming QoE-based (Quality of Experience) optimization are established, this way being of configuration, a trendy paradigm in the new-generation networks, such as 4G and 5G (Fourth and Fifth Generation of Mobile Networks).
 </details>
 
- [📄 Paper]()
+ [📄 Paper](https://www.mdpi.com/1424-8220/21/4/1387)
 
 <br>
 
@@ -759,13 +757,13 @@ Cloud gaming, i.e., real-time game playing via thin clients, relieves users from
 <br>
 
 ### 9. Performance Measurements on a Cloud VR Gaming Platform
-**Authors**:
+**Authors**:Yen-Chun Li, Chia-Hsin Hsu, Yu-Chun Lin, Cheng-Hsin Hsu
 <details span>
 <summary><b>Abstract</b></summary>
-
+As cloud gaming and Virtual Reality (VR) games become popular in the game industry, game developers engage in these fields to boost their sales. Because cloud gaming possesses the merit of lifting computation loads from client devices to servers, it solves the high resource consumption issue of VR games on regular clients. However, it is important to know where is the bottleneck of the cloud VR gaming platform and how can it be improved in the future. In this paper, we conduct extensive experiments on the stateof-the-art cloud VR gaming platform–Air Light VR (ALVR). In particular, we analyze the performance of ALVR using both Qualityof-Service and Quality-of-Experience metrics. Our experiments reveal that latency (up to 90 ms RTT) has less influence on user experience compared to bandwidth limitation (as small as 35 Mbps) and packet loss rate (as high as 8%) . Moreover, we find that VR gamers can hardly notice the difference between the gaming experience with different latency values (between 0 and 90 ms RTT). Such findings shed some lights on how to further improve the cloud VR gaming platform, e.g., a budget of up to 90 ms RTT may be used to absorb network dynamics when bandwidth is insufficient.
 </details>
 
- [📄 Paper]()
+ [📄 Paper](https://dl.acm.org/doi/abs/10.1145/3423328.3423497)
 
 <br>
 
@@ -773,43 +771,269 @@ Cloud gaming, i.e., real-time game playing via thin clients, relieves users from
 **Authors**:
 <details span>
 <summary><b>Abstract</b></summary>
-
+Cloud gaming has emerged as a promising approach to more affordable and accessible games. By rendering high-end video games in the cloud and streaming encoded game scenes to players via the broadband networks, users are relieved from downloading or installing game software. With cloud gaming, users can easily play high-end 3-D video games on any devices anytime and anywhere. In this paper, we conducted a comprehensive measurement study of a leading cloud gaming system in China, namely, CloudUnion. Unlike the previous work, our measurement study was based on an in-depth understanding of the internal mechanisms of CloudUnion, and thus we were able to reveal problems that cannot be observed in a black-box approach. We built a dedicated measurement platform, which enables us to study CloudUnion from different views, including the global view, local view, and user view. We also conducted a comparison study with another cloud gaming system, namely, GamingAnywhere. Our measurement results unveil the pros and cons of the current cloud gaming system design, and bring forth important insights about the cloud infrastructure, user behaviors, traffic patterns, user-perceived quality, and so on. Our work will be valuable for the design of future cloud gaming systems.
 </details>
 
- [📄 Paper]()
+ [📄 Paper](https://ieeexplore.ieee.org/abstract/document/6934992)
 
 <br>
 
 ### 11. The Effects of Latency, Bandwidth, and Packet Loss on Cloud-Based Gaming Services
-**Authors**:
+**Authors**:J. McManus, T. Day, Zachary J Mailloux
 <details span>
 <summary><b>Abstract</b></summary>
-
+Network bandwidth increases make the concept of cloud-based gaming services apromising alternative to traditional gaming platforms. Cloud-based gaming services do this byprocessing and rendering the game in a cloud server, receiving control input from the client andstreaming the rendered game back to the client akin to video streaming. Network latencypresents a challenge cloud-based gaming services must overcome to provide a comparableexperience to traditional gaming. Measuring the effects of latency on key factors, such as qualityof experience and player performance, can help understand the capabilities of the currentgeneration of cloud-based gaming services. We conduct a cloud-based gaming service userstudy, surveying user's subjective quality of experience and measuring their in-gameperformance and conduct experiments that measure cloud-based gaming services' networkcharacteristics. Analysis of results shows a significant decrease in both quality of experience andplayer performance as latency increases, but latency has little effect on the frame rate or averagethroughput of cloud-based gaming services.
 </details>
 
- [📄 Paper]()
+ [📄 Paper](https://core.ac.uk/download/pdf/213002520.pdf)
 
 <br>
 
 ## Streaming
 
+### 1. Adaptive Bitrate Streaming in Cloud Gaming
+**Authors**: R Domanico
+<details span>
+<summary><b>Abstract</b></summary>
+Cloud gaming streams games as video from a server directly to a client device making it susceptible to network congestion. Adaptive bitrate streaming estimates the bottleneck capacity of a network and sets appropriate encoding parameters to avoid exceeding the bandwidth of the connection. BBR is a congestion control algorithm as an alternative to current loss-based congestion control. We designed and implemented a bitrate adaptation heuristic based on BBR into GamingAnywhere, an open source cloud gaming platform. We conducted a user study and did objective analysis comparing the software with our modifications to the original. Through our user study we found that our adaptive system was less challenging for a player and improved player retention rates. From our objective tests, we also found that there was no statistically significant difference in visual quality or appearance of the tested game.
+</details>
+
+ [📄 Paper](https://core.ac.uk/download/pdf/212996694.pdf)
+
 <br>
+
+### 2. Design and Implementation of Platforms for Game Streaming
+**Authors**: Jungseok Park, Jinwon Kim, Seungjae Lee, Daejune Lim, Eunju Park, Hankyu Lim
+<details span>
+<summary><b>Abstract</b></summary>
+Game streaming technology allows users to play games by connecting to the cloud without separate installation and to play various games on any device, providing a convenient gaming environment for the user. As the 5G environment has been recently established, slow data transmission and reception speeds, which were disadvantages of game streaming, have been accelerated, and as a result, game streaming services are being actively provided. In this paper, we designed a game platform that would become the basis of the development of game streaming platform and implemented it using Android Studio.
+</details>
+
+ [📄 Paper](https://ieeexplore.ieee.org/abstract/document/9028019)
+
+<br>
+
+### 3. Latency contributors in WebRTC-based remote control system
+**Authors**: S Tanskanen
+<details span>
+<summary><b>Abstract</b></summary>
+WebRTC is a prominent technology that has gained substantial traction in the past few years. All major browsers support it which makes it an attractive choice for a remote control system. However, WebRTC is mostly used for teleconferencing applications and it's feasibility for remote control has not been studied. This thesis studies the latency of a WebRTC-based remote control system. A measurement system is designed and implemented for conducting precise and automated latency measurements. Various setups are tested and different internal components are measured to gain thorough understanding on which parts of the system contribute most to the overall latency. The results form a good basis for further optimization efforts. The measurement system presented in the thesis can be used to validate improvements in the system, and the detailed data on the latency contributions from different components can be used to direct the optimization to the place where results are most easily achievable. Additionally, these results can be used as a guideline when designing a low-latency remote control system.
+</details>
+
+ [📄 Paper](https://aaltodoc.aalto.fi/handle/123456789/103058)
+
+<br>
+
+### 4. Optimizing WebRTC for Cloud Streaming of XR
+**Authors**: E Vikberg
+<details span>
+<summary><b>Abstract</b></summary>
+WebRTC is a multi-purpose technology, enabling low-latency peer-to-peer connections to be formed between clients over the internet. In addition to low latency, it provides signaling, and transmission of both binary data messages and multimedia, making it a powerful tool for streaming extended reality (XR) content. This thesis measured the latency of WebRTC streaming of remotely rendered XR content. The latency is broken down into components, and the feasibility of reducing each component is studied, optimizing the stream for as low latency as possible, without compromising stream quality. Measurements were conducted in a local network, and network conditions were adjusted using a software utility. The server-client delay is found to consist of encoding, decoding, rendering, networking, and buffering delays. Movement-to-photon latency also includes display latency as well as control delay consisting of the time it takes to register the controls, time it takes to transmit the controls to the server, and time it takes to render the effect. After jitter buffering, video encoding and decoding delay are minimized, the biggest causes of latency are rendering rate bound delay components. The primary method of further reducing the latency is therefore found to be increasing the rendering rate. This can also help counteract skipping frames in non-optimal network conditions. Limiting jitter buffering to a short duration can also stabilize the stream, while keeping latency limited.
+</details>
+
+ [📄 Paper](https://aaltodoc.aalto.fi/items/3cae5a09-03e5-4c28-90da-59addd689486)
+
+<br>
+
+### 5. Performance Evaluation of WebRTC-based Video Conferencing
+**Authors**: B. Jansen, Timothy Goodwin, Varun Gupta, F. Kuipers, G. Zussman
+<details span>
+<summary><b>Abstract</b></summary>
+WebRTC has quickly become popular as a video conferencing platform, partly due to the fact that many browsers support it. WebRTC utilizes the Google Congestion Control (GCC) algorithm to provide congestion control for realtime communications over UDP. The performance during a WebRTC call may be influenced by several factors, including the underlying WebRTC implementation, the device and network characteristics, and the network topology. In this paper, we perform a thorough performance evaluation of WebRTC both in emulated synthetic network conditions as well as in real wired and wireless networks. Our evaluation shows that WebRTC streams have a slightly higher priority than TCP flows when competing with cross traffic. In general, while in several of the considered scenarios WebRTC performed as expected, we observed important cases where there is room for improvement. These include the wireless domain and the newly added support for the video codecs VP9 and H.264 that does not perform as expected.
+</details>
+
+ [📄 Paper](https://dl.acm.org/doi/abs/10.1145/3199524.3199534)
+
+<br>
+
+### 6. WebRTC - real-time communication for the open web platform
+**Authors**: N Blum, S Lachapelle, H Alvestrand 
+<details span>
+<summary><b>Abstract</b></summary>
+IN THIS TIME of pandemic, the world has turned toInternet-based, real-time communication (RTC) asnever before. The number of RTC products has, overthe past decade, exploded in large part because ofcheaper high-speed network access and more powerfuldevices, but also because of an open, royalty-freeplatform called WebRTC.In fact, over the past year, there has been a 100-foldincrease of video minutes received via the WebRTCstack in the anonymous population that has optedinto Google Chrome's statistics. WebRTC can befound in most Internet meeting services, social networks, live-streaming experiences,and even cloud-based gaming products.WebRTC provides RTC capabilitiesto browsers and native apps. An opensource implementation and tutorialsfor this platform can be found athttps://webrtc.org. It includes audioand video codecs, and signal-process-ing functions such as bandwidth esti-mation, noise suppression, and echocancellation.
+</details>
+
+ [📄 Paper](https://dl.acm.org/doi/pdf/10.1145/3453182)
 
 <br>
 
 ## Survey
 
+
+### 1. A Survey of Interactive Remote Rendering Systems
+**Authors**: Shu Shi, Cheng-Hsin Hsu
+<details span>
+<summary><b>Abstract</b></summary>
+Remote rendering means rendering 3D graphics on a computing device and displaying the results on another computing device connected through a network. The concept was originally developed for sharing computing resources remotely. It has been receiving increasing attention from researchers in both academia and industry in recent years due to the proliferation of cloud computing and mobile devices. In this article, we survey the interactive remote rendering systems proposed in the literature, analyze how to improve the state-of-the-art, and summarize the related technologies. The readers of this article will understand the history of remote rendering systems and obtain some inspirations of the future research directions in this area.
+</details>
+
+ [📄 Paper](https://mint.univ-reims.fr/files/2020-4/Shi15.pdf)
+
 <br>
+
+### 2. A Survey on Cloud Gaming: Future of Computer Games
+**Authors**: Wei Cai, R. Shea, Chun-Ying Huang, Kuan-Ta Chen, Jiangchuan Liu, Victor C. M. Leung, Cheng-Hsin Hsu
+<details span>
+<summary><b>Abstract</b></summary>
+Cloud gaming is a new way to deliver high-quality gaming experience to gamers anywhere and anytime. In cloud gaming, sophisticated game software runs on powerful servers in data centers, rendered game scenes are streamed to gamers over the Internet in real time, and the gamers use light-weight software executed on heterogeneous devices to interact with the games. Due to the proliferation of high-speed networks and cloud computing, cloud gaming has attracted tremendous attentions in both the academia and industry since late 2000's. In this paper, we survey the latest cloud gaming research from different aspects, spanning over cloud gaming platforms, optimization techniques, and commercial cloud gaming services. The readers will gain the overview of cloud gaming research and get familiar with the recent developments in this area.
+</details>
+
+ [📄 Paper](https://scholar.archive.org/work/2wickzgkebcpfdmpqtmqf2jbsy/access/wayback/http://ece.ubc.ca:80/~weicai/paper/Wei_2016_IEEEAccess.pdf)
+
+<br>
+
+### 3. A Survey on Mobile Augmented Reality With 5G Mobile Edge Computing: Architectures, Applications, and Technical Aspects
+**Authors**: Yushan Siriwardhana, P. Porambage, Madhusanka Liyanage, M. Ylianttila
+<details span>
+<summary><b>Abstract</b></summary>
+The Augmented Reality (AR) technology enhances the human perception of the world by combining the real environment with the virtual space. With the explosive growth of powerful, less expensive mobile devices, and the emergence of sophisticated communication infrastructure, Mobile Augmented Reality (MAR) applications are gaining increased popularity. MAR allows users to run AR applications on mobile devices with greater mobility and at a lower cost. The emerging 5G communication technologies act as critical enablers for future MAR applications to achieve ultra-low latency and extremely high data rates while Multi-access Edge Computing (MEC) brings enhanced computational power closer to the users to complement MAR. This paper extensively discusses the landscape of MAR through the past and its future prospects with respect to the 5G systems and complementary technology MEC. The paper especially provides an informative analysis of the network formation of current and future MAR systems in terms of cloud, edge, localized, and hybrid architectural options. The paper discusses key application areas for MAR and their future with the advent of 5G technologies. The paper also discusses the requirements and limitations of MAR technical aspects such as communication, mobility management, energy management, service offloading and migration, security, and privacy and analyzes the role of 5G technologies.
+</details>
+
+ [📄 Paper](https://www.academia.edu/download/97719572/09363323.pdf)
+
+<br>
+
+### 4. Cloud-based XR Services: A Survey on Relevant Challenges and Enabling Technologies
+**Authors**: T. Theodoropoulos, Antonios Makris, Abderrahmane Boudi, T. Taleb, U. Herzog, Luis Rosa, Luís Cordeiro, K. Tserpes, Elena Spatafora, Alessandro Romussi, E. Zschau, Manos N. Kamarianakis, Antonis I Protopsaltis, G. Papagiannakis, Patrizio Dazzi
+<details span>
+<summary><b>Abstract</b></summary>
+In recent years, the emergence of XR (eXtended Reality) applications, including Holography, Augmented, Virtual and Mixed Reality, has resulted in the creation of rather demanding requirements for Quality of Experience (QoE) and Quality of Service (QoS). In order to cope with requirements such as ultra-low latency and increased bandwidth, it is of paramount importance to leverage certain technological paradigms. The purpose of this paper is to identify these QoE and QoS requirements and then to provide an extensive survey on technologies that are able to facilitate the rather demanding requirements of Cloud-based XR Services. To that end, a wide range of enabling technologies are explored. These technologies include e.g. the ETSI (European Telecommunications Standards Institute) Multi-Access Edge Computing (MEC), Edge Storage, the ETSI Management and Orchestration (MANO), the ETSI Zero touch network & Service Management (ZSM), Deterministic Networking, the 3GPP (3rd Generation Partnership Project) Media Streaming, MPEG's (Moving Picture Experts Group) Mixed and Augmented Reality standard, the Omnidirectional MediA Format (OMAF), ETSI's Augmented Reality Framework etc.
+</details>
+
+ [📄 Paper](http://www.mosaic-lab.org/uploads/papers/efe58c69-c890-4388-a643-4abb2250158f.pdf)
+
+<br>
+
+### 5. Communication versus computation: a survey of cloud gaming approaches
+**Authors**: R. Grigg, R. Hexel
+<details span>
+<summary><b>Abstract</b></summary>
+There still remains many challenges in creating an eective and ecient cloud gaming operation able to handle the new release games of today. There are also many existing paths to creating a cloud gaming architecture. In this paper some of the dierent approaches, that are beyond that of just remote rendering, are analysed giving insight into the operational approach of each technology. Currently there is a growing number of initiatives in cloud game architectures that vary in signicant ways. Although there are many varying technologies, with a lot of promises, the ultimate goal of a cloud game engine is something unique to what has been before. It really is about providing a modular and scalable approach but within a controllable and sandbox like environment.
+</details>
+
+ [📄 Paper](https://www.eurosis.org/cms/files/proceedings_full/GAMEON2017.pdf#page=22)
+
+<br>
+
+### 6. Discussion on Key Technologies of Cloud Game Based on 5G and Edge Computing
+**Authors**: Yan Zhang, Yicheng Zhang
+<details span>
+<summary><b>Abstract</b></summary>
+With the rapid development of technology andbusiness models, cloud computing has been widely used as amature computing paradigm. Cloud computing provides alayered service system with its powerful computing and storagecapabilities, and the emergence of 5G and edge computing hasmade it possible to provide end users with convenient,multi-platform, access to any time and place. Cloud games arethe cloud computing applications that have emerged in recentyears and are considered as a "killer". However, due to thecurrent game delay control of cloud gaming has not reached anacceptable level, and based on hardware virtualization and costconsiderations, cloud gaming related technologies are still in theexploration stage. Based on the above background, we firstintroduced the background and foundation of cloud games.Then we analyze the advantages of cloud gaming and thecurrent problems. Additionally, this paper attempts to givesolutions to related problems based on 5G and edge computingtechnology, and at the same time summarizes the researchresults and conclusions.
+</details>
+
+ [📄 Paper]()
+
+<br>
+
+### 7. Virtual Reality Gaming on the Cloud: A Reality Check.
+**Authors**: Sihao Zhao, H. Abou-zeid, R. Atawia, Yoga Suhas Kuruba Manjunath, A. B. Sediq, Xiao-Ping Zhang
+<details span>
+<summary><b>Abstract</b></summary>
+Cloud virtual reality (VR) gaming traffic characteristics such as frame size, inter-arrival time, and latency need to be carefully studied as a first step toward scalable VR cloud service provisioning. To this end, in this paper we analyze the behavior of VR gaming traffic and Quality of Service (QoS) when VR rendering is conducted remotely in the cloud. We first build a VR testbed utilizing a cloud server, a commercial VR headset, and an off-the-shelf WiFi router. Using this testbed, we collect and process cloud VR gaming traffic data from different games under a number of network conditions and fixed and adaptive video encoding schemes. To analyze the applicationlevel characteristics such as video frame size, frame inter-arrival time, frame loss and frame latency, we develop an interval threshold based identification method for video frames. Based on the frame identification results, we present two statistical models that capture the behaviour of the VR gaming video traffic. The models can be used by researchers and practitioners to generate VR traffic models for simulations and experiments - and are paramount in designing advanced radio resource management (RRM) and network optimization for cloud VR gaming services. To the best of the authors' knowledge, this is the first measurement study and analysis conducted using a commercial cloud VR gaming platform, and under both fixed and adaptive bitrate streaming. We make our VR traffic datasets publicly available for further research by the community.
+</details>
+
+ [📄 Paper](https://arxiv.org/abs/2109.10114)
 
 <br>
 
 ## Virtulized
 
-<br>
+
+### 1. 
+**Authors**: Cloud Gaming: Understanding the Support from Advanced Virtualization and Hardware
+<details span>R. Shea, Di Fu, Jiangchuan Liu
+<summary><b>Abstract</b></summary>
+Fueled by elastic resource provisioning, reduced costs and unparalleled scalability, cloud gaming brings immense benefits by expanding the user base to the vast number of resource-constrained thin clients. Existing cloud gaming platforms have mainly focused on private, non-virtualized environments with proprietary hardware. Modern public cloud platforms heavily rely on virtualization for efficient resource sharing, whose potentials have yet to be explored. Migrating gaming to a public cloud is non-trivial however, particularly considering the overhead for virtualization and that the GPUs for game rendering has long been an obstacle in virtualization. This paper takes a first step towards bridging the online gaming system and the public cloud platforms. We present a systematic study on the diverse aspects of migrating gaming services to a virtualized cloud environment. To this end, we closely examine the technology evolution for GPU virtualization and pass-through, and measure the performance of both earlier and the advanced solutions available in the market. We then present the design and implementation of a fully virtualized cloud gaming platform with the latest hardware support. We address the issues from each and every module of the platform, including the choice of hardware or software video encoding, the configuration and the detailed power consumption of thin client, and the impact of streaming protocols. We demonstrate that, with the latest hardware and virtualization support, gaming over virtualized cloud can be made possible with careful optimization and integration of the different modules. We also highlight the critical challenges towards full- fledge deployment of gaming services over public virtualized cloud.
+</details>
 
 <br>
 
-## Open Source Implementations
+
+### 2. GPU Virtualization and Scheduling Methods: A Comprehensive Survey
+**Authors**: CHEOL-HO HONG, Queen's University BelfastIVOR SPENCE, Queen's University BelfastDIMITRIOS S. NIKOLOPOULOS, Queen's University Belfast
+<details span>
+<summary><b>Abstract</b></summary>
+The integration of graphics processing units (GPUs) on high-end compute nodes has established a new accelerator-based heterogeneous computing model, which now permeates high performance computing. The same paradigm nevertheless has limited adoption in cloud computing or other large-scale distributed computing paradigms. Heterogeneous computing with GPUs can benefit the Cloud by reducing operational costs and improving resource and energy efficiency. However, such a paradigm shift would require effective methods for virtualizing GPUs, as well as other accelerators. In this survey paper, we present an extensive and in-depth survey of GPU virtualization techniques and their scheduling methods. We review a wide range of virtualization techniques implemented at the GPU library, driver, and hardware levels. Furthermore, we review GPU scheduling methods that address performance and fairness issues between multiple virtual machines sharing GPUs. We believe that our survey delivers a perspective on the challenges and opportunities for virtualization of heterogeneous computing environments.
+</details>
+
+ [📄 Paper](https://www.cse.iitb.ac.in/~puru/courses/autumn15/cs695/downloads/gpu-virt-sched.pdf)
+
+<br>
+
+
+### 3. VGRIS: Virtualized GPU Resource Isolation and Scheduling in Cloud Gaming
+**Authors**: Miao Yu, Chao Zhang, Zhengwei Qi, Jianguo Yao, Yin Wang, Haibing Guan
+<details span>
+<summary><b>Abstract</b></summary>
+To achieve efficient resource management on a graphics processing unit (GPU), there is a demand to develop a framework for scheduling virtualized resources in cloud gaming. In this article, we propose VGRIS, a resource management framework for virtualized GPU resource isolation and scheduling in cloud gaming. A set of application programming interfaces (APIs) is provided so that a variety of scheduling algorithms can be implemented within the framework without modifying the framework itself. Three scheduling algorithms are implemented by the APIs within VGRIS. Experimental results show that VGRIS can effectively schedule GPU resources among various workloads.
+</details>
+
+ [📄 Paper](http://www.contrib.andrew.cmu.edu/~miaoy1/papers/hpdc13/hpdc125-Yu.pdf)
+
+<br>
+
+
+### 4. Enhancing Cloud Gaming User Experience through Docker Containers in Fog Nodes
+**Authors**: M. Kannan
+<details span>
+<summary><b>Abstract</b></summary>
+The attraction towards cloud gaming has reached to a high intensity in modern days. The proliferation of gassed-up networks and the development in the field of cloud computing has attracted the researches to deep study and identify the gaps in Cloud Gaming to provide high-end quality of gamer experience. In time-horned cloud gaming model, the game scenes are rendered in a sophisticated game server and corresponding game video is generated. The generated game video will be encoded and sent over the network to the thin clients. The thin clients decode the encoded video and stream the video back to the players device. The fundamental requirement of gaming is to provide maximum quality of gamer experience. Cloud gaming suffers in terms of providing Quality of Experience (QoE), because the network transmission of game scenes from cloud game server to gamer device is distant. Since the traditional cloud gaming is deployed in virtual machine there is performance-overhead which also affects the QoE. We endeavour to minimize latency and increase performance in cloud gaming through this paper. The cloud game server will be offloaded to the fog nodes which is present at the edge network of the player based on Node selection algorithm. To increase the performance of cloud gaming, traditional virtual machine is replaced by light-weight containers. The proposed system achieves new methodology by deploying cloud game server through docker containers in fog nodes. Evaluation results has proved that fognode based gaming has minimized the latency and increased the performance of cloud gaming.Fog assisted gaming has shown about 1.3MB increase in terms of TCP transfer rate over cloud gaming.
+</details>
+
+ [📄 Paper](https://norma.ncirl.ie/4135/1/manojkannan.pdf)
+
+<br>
+
+
+### 5. A Cloud Gaming System Based on User-Level Virtualization and Its Resource Scheduling
+**Authors**: Youhui Zhang, Peng Qu, Cihang Jiang, Weimin Zheng
+<details span>
+<summary><b>Abstract</b></summary>
+Many believe the future of gaming lies in the cloud, namely Cloud Gaming, which renders an interactive gaming application in the cloud and streams the scenes as a video sequence to the player over Internet. This paper proposes GCloud, a GPU/CPU hybrid cluster for cloud gaming based on the user-level virtualization technology. Specially, we present a performance model to analyze the server-capacity and games' resource-consumptions, which categorizes games into two types: CPU-critical and memory-io-critical. Consequently, several scheduling strategies have been proposed to improve the resource-utilization and compared with others. Simulation tests show that both of the First-Fit-like and the Best-Fit-like strategies outperform the other(s); especially they are near optimal in the batch processing mode. Other test results indicate that GCloud is efficient: An off-the-shelf PC can support five high-end video-games run at the same time. In addition, the average per-frame processing delay is 819 ms under different image-resolutions, which outperforms other similar solutions.
+</details>
+
+ [📄 Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7109163)
+
+<br>
+
+
+### 6. Placing Virtual Machines to Optimize Cloud Gaming Experience
+**Authors**: Hua-Jun Hong, De-Yu Chen, Chun-Ying Huang, Kuan-Ta Chen, and Cheng-Hsin Hsu
+<details span>
+<summary><b>Abstract</b></summary>
+Optimizing cloud gaming experience is no easy task due to the complex tradeoff between gamer Quality of Experience (QoE) and provider net profit. We tackle the challenge and study an optimization problem to maximize the cloud gaming provider's total profit while achieving just-good-enough QoE. We conduct measurement studies to derive the QoE and performance models. We formulate and optimally solve the problem. The optimization problem has exponential running time, and we develop an efficient heuristic algorithm. We also present an alternative formulation and algorithms for closed cloud gaming services with dedicated infrastructures, where the profit is not a concern and overall gaming QoE needs to be maximized. We present a prototype system and testbed using off-the-shelf virtualization software, to demonstrate the practicality and efficiency of our algorithms. Our experience on realizing the testbed sheds some lights on how cloud gaming providers may build up their own profitable services. Last, we conduct extensive trace-driven simulations to evaluate our proposed algorithms. The simulation results show that the proposed heuristic algorithms: (i) produce close-to-optimal solutions, (ii) scale to large cloud gaming services with 20000 servers and 40000 gamers, and (iii) outperform the state-of-the-art placement heuristic, e.g., by up to 3.5 times in terms of net profits.
+</details>
+
+ [📄 Paper](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=ba8324733337de404afdf3e5def4f645823cd3b4)
+
+<br>
+
+
+### 7. Virtual Machines vs. Containers in Cloud Gaming Systems
+**Authors**: 
+<details span>
+<summary><b>Abstract</b></summary>
+In cloud gaming the game is rendered on a distant cloud server and the resulting video stream is sent back to the user who controls the game via a thin client. The high resource usage of cloud gaming servers is a challenge. Expensive hardware including GPUs have to be efficiently shared among multiple simultaneous users. The cloud servers use virtualization techniques to isolate users and share resources among dedicated servers. The traditional virtualization techniques can however inflict notable performance overhead limiting the user count for a single server. Operating-system-level virtualization instances known as containers are an emerging trend in cloud computing. Containers don't need to virtualize the entire operating system still providing most of the benefits of virtualization. In this paper, we evaluate the container–based alternative to traditional virtualization in cloud gaming systems through extensive experiments. We also discuss the differences needed in system implementation using the container approach and identify the existing limitations.
+</details>
+
+<br>
+
+
+### 8. ShareRender: Bypassing GPU Virtualization to Enable Fine-grained Resource Sharing for Cloud Gaming
+**Authors**: Wei Zhang† Xiaofei Liao†¶ Peng Li‡ Hai Jin† Li Lin†
+<details span>
+<summary><b>Abstract</b></summary>
+Cloud gaming is promising to provide high-quality game services by outsourcing game execution to cloud so that users can access games via thin clients (e.g., smartphones or tablets). However, existing cloud gaming systems suffer from low GPU utilization in the virtualized environment. Moreover, GPU resources are scheduled in units of virtual machines (VMs) and this kind of coarse-grained scheduling at the VM-level fails to fully exploit GPU processing capacity. In this paper, we present ShareRender, a cloud gaming system that offloads graphics workloads within VMs directly to GPUs, bypassing GPU virtualization. For each game running in a VM, ShareRender starts a graphics wrapper to intercept frame rendering requests and assign them to render agents responsible for frame rendering on GPUs. Thanks to the flexible workload assignment among multiple render agents, ShareRender enables fine-grained resource sharing at the frame-level to significantly improve GPU utilization. Furthermore, we design an online algorithm to determine workload assignment and migration of render agents, which considers the tradeoff between minimizing the number of active server and low agent migration cost. We conduct experiments on real deployment and trace-driven simulations to evaluate the performance of ShareRender under different system settings. The results show that ShareRender outperforms the existing video-streaming-based cloud gaming system by over 4 times.
+</details>
+
+<br>
+
+## Implementations
+
+<br>
+
+## Books
 
 <br>
 
