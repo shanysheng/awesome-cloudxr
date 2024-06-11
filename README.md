@@ -180,7 +180,6 @@ Online gaming connects players from all over the world together for fun and ente
 Cloud gaming now makes any computer game playable on a thin client without the previous worries and frustrations about the hardware requirements. It frees players from the need to frequently upgrade their computers as they can now play games that are hosted on remote servers with a broadband Internet connection and a thin client. However, cloud games are intrinsically more susceptible to latency than online games because game graphics are rendered on cloud servers and thin clients do not possess game state information that is required by delay compensation techniques. In this paper, we investigate how the response latency in cloud gaming would affect users' experience and how the impact of latency on players' experience varies among different games. We show that not all games are equally friendly to cloud gaming. That is, the same degree of latency may have very different impacts on a game's quality of experience depending on the game's real-time strictness. We thus develop a model that can predict a game's real-time strictness based on the rate of players' inputs and the game screen dynamics. The model can be used to simultaneously enhance players' gaming experience and optimize the operation cost of data centers.
 </details>
 
-
 <br>
 
 ### 4. Cloud Computing's Killer App: Gaming
@@ -415,16 +414,13 @@ Mobile edge computing (MEC) is an emerging standard where cloud computing servic
 
 <br>
 
-
 ### 2. Computation Offloading Toward Edge Computing
 **Authors**: Li Lin, Xiaofei Liao, Hai Jin, Peng Li
 <summary><b>Abstract</b></summary>
 We are living in a world where massive end devices perform computing everywhere and everyday. However, these devices are constrained by the battery and computational resources. With the increasing number of intelligent applications (e.g., augmented reality and face recognition) that require much more computational power, they shift to perform computation offloading to the cloud, known as mobile cloud computing (MCC). Unfortunately, the cloud is usually far away from end devices, leading to a high latency as well as the bad quality of experience (QoE) for latency-sensitive applications. In this context, the emergence of edge computing is no coincidence. Edge computing extends the cloud to the edge of the network, close to end users, bringing ultra-low latency and high bandwidth. Consequently, there is a trend of computation offloading toward edge computing. In this paper, we provide a comprehensive perspective on this trend. First, we give an insight into the architecture refactoring in edge computing. Based on that insight, this paper reviews the state-of-the-art research on computation offloading in terms of application partitioning, task allocation, resource management, and distributed execution, with highlighting features for edge computing. Then, we illustrate some disruptive application scenarios that we envision as critical drivers for the flourish of edge computing, such as real-time video analytics, smart “things” (e.g., smart city and smart home), vehicle applications, and cloud gaming. Finally, we discuss the opportunities and future research directions.
 </details>
 
-
 <br>
-
 
 ### 3. From cloud to edge: a first look at public edge platforms
 **Authors**: Mengwei Xu, Zhe Fu, Xiao Ma, Li Zhang, Yanan Li, Feng Qian, Shangguang Wang, Ke Li, Jingyu Yang, Xuanzhe Liu
@@ -487,7 +483,6 @@ Cloud gaming, i.e., real-time game playing via thin clients, relieves players fr
  [📄 Paper](https://scholar.archive.org/work/26zari3d2vc77mcpiykzkvdxxy/access/wayback/http://mmnet.iis.sinica.edu.tw/pub/chen11_cloudgaming.pdf) 
 
 <br>
-
 
 ### 5. The brewing storm in cloud gaming: a measurement study on cloud to end-user latency
 **Authors**: Sharon Choy, B. Wong, G. Simon, C. Rosenberg
@@ -863,9 +858,9 @@ Cloud virtual reality (VR) gaming traffic characteristics such as frame size, in
 ## Virtulized
 
 
-### 1. 
-**Authors**: Cloud Gaming: Understanding the Support from Advanced Virtualization and Hardware
-<details span>R. Shea, Di Fu, Jiangchuan Liu
+### 1. Cloud Gaming: Understanding the Support from Advanced Virtualization and Hardware
+**Authors**: R. Shea, Di Fu, Jiangchuan Liu
+<details span>
 <summary><b>Abstract</b></summary>
 Fueled by elastic resource provisioning, reduced costs and unparalleled scalability, cloud gaming brings immense benefits by expanding the user base to the vast number of resource-constrained thin clients. Existing cloud gaming platforms have mainly focused on private, non-virtualized environments with proprietary hardware. Modern public cloud platforms heavily rely on virtualization for efficient resource sharing, whose potentials have yet to be explored. Migrating gaming to a public cloud is non-trivial however, particularly considering the overhead for virtualization and that the GPUs for game rendering has long been an obstacle in virtualization. This paper takes a first step towards bridging the online gaming system and the public cloud platforms. We present a systematic study on the diverse aspects of migrating gaming services to a virtualized cloud environment. To this end, we closely examine the technology evolution for GPU virtualization and pass-through, and measure the performance of both earlier and the advanced solutions available in the market. We then present the design and implementation of a fully virtualized cloud gaming platform with the latest hardware support. We address the issues from each and every module of the platform, including the choice of hardware or software video encoding, the configuration and the detailed power consumption of thin client, and the impact of streaming protocols. We demonstrate that, with the latest hardware and virtualization support, gaming over virtualized cloud can be made possible with careful optimization and integration of the different modules. We also highlight the critical challenges towards full- fledge deployment of gaming services over public virtualized cloud.
 </details>
@@ -928,7 +923,16 @@ Optimizing cloud gaming experience is no easy task due to the complex tradeoff b
 <br>
 
 
-### 7. Virtual Machines vs. Containers in Cloud Gaming Systems
+### 7. ShareRender: Bypassing GPU Virtualization to Enable Fine-grained Resource Sharing for Cloud Gaming
+**Authors**: Wei Zhang† Xiaofei Liao†¶ Peng Li‡ Hai Jin† Li Lin†
+<summary><b>Abstract</b></summary>
+Cloud gaming is promising to provide high-quality game services by outsourcing game execution to cloud so that users can access games via thin clients (e.g., smartphones or tablets). However, existing cloud gaming systems suffer from low GPU utilization in the virtualized environment. Moreover, GPU resources are scheduled in units of virtual machines (VMs) and this kind of coarse-grained scheduling at the VM-level fails to fully exploit GPU processing capacity. In this paper, we present ShareRender, a cloud gaming system that offloads graphics workloads within VMs directly to GPUs, bypassing GPU virtualization. For each game running in a VM, ShareRender starts a graphics wrapper to intercept frame rendering requests and assign them to render agents responsible for frame rendering on GPUs. Thanks to the flexible workload assignment among multiple render agents, ShareRender enables fine-grained resource sharing at the frame-level to significantly improve GPU utilization. Furthermore, we design an online algorithm to determine workload assignment and migration of render agents, which considers the tradeoff between minimizing the number of active server and low agent migration cost. We conduct experiments on real deployment and trace-driven simulations to evaluate the performance of ShareRender under different system settings. The results show that ShareRender outperforms the existing video-streaming-based cloud gaming system by over 4 times.
+</details>
+
+<br>
+
+
+### 8. Virtual Machines vs. Containers in Cloud Gaming Systems
 **Authors**: 
 <summary><b>Abstract</b></summary>
 In cloud gaming the game is rendered on a distant cloud server and the resulting video stream is sent back to the user who controls the game via a thin client. The high resource usage of cloud gaming servers is a challenge. Expensive hardware including GPUs have to be efficiently shared among multiple simultaneous users. The cloud servers use virtualization techniques to isolate users and share resources among dedicated servers. The traditional virtualization techniques can however inflict notable performance overhead limiting the user count for a single server. Operating-system-level virtualization instances known as containers are an emerging trend in cloud computing. Containers don't need to virtualize the entire operating system still providing most of the benefits of virtualization. In this paper, we evaluate the container–based alternative to traditional virtualization in cloud gaming systems through extensive experiments. We also discuss the differences needed in system implementation using the container approach and identify the existing limitations.
@@ -936,11 +940,3 @@ In cloud gaming the game is rendered on a distant cloud server and the resulting
 
 <br>
 
-
-### 8. ShareRender: Bypassing GPU Virtualization to Enable Fine-grained Resource Sharing for Cloud Gaming
-**Authors**: Wei Zhang† Xiaofei Liao†¶ Peng Li‡ Hai Jin† Li Lin†
-<summary><b>Abstract</b></summary>
-Cloud gaming is promising to provide high-quality game services by outsourcing game execution to cloud so that users can access games via thin clients (e.g., smartphones or tablets). However, existing cloud gaming systems suffer from low GPU utilization in the virtualized environment. Moreover, GPU resources are scheduled in units of virtual machines (VMs) and this kind of coarse-grained scheduling at the VM-level fails to fully exploit GPU processing capacity. In this paper, we present ShareRender, a cloud gaming system that offloads graphics workloads within VMs directly to GPUs, bypassing GPU virtualization. For each game running in a VM, ShareRender starts a graphics wrapper to intercept frame rendering requests and assign them to render agents responsible for frame rendering on GPUs. Thanks to the flexible workload assignment among multiple render agents, ShareRender enables fine-grained resource sharing at the frame-level to significantly improve GPU utilization. Furthermore, we design an online algorithm to determine workload assignment and migration of render agents, which considers the tradeoff between minimizing the number of active server and low agent migration cost. We conduct experiments on real deployment and trace-driven simulations to evaluate the performance of ShareRender under different system settings. The results show that ShareRender outperforms the existing video-streaming-based cloud gaming system by over 4 times.
-</details>
-
-<br>
