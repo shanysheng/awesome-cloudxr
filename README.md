@@ -1,4 +1,4 @@
-# Awesome CloudXR / CloudGaming Resources 
+# Awesome CloudGaming / CloudXR Resources 
 
 A curated list of papers and open-source resources focused on CloudXR. If you have any additions or suggestions, feel free to contribute.
 
