@@ -18,7 +18,7 @@ A curated list of papers and open-source resources focused on CloudXR. If you ha
 - - [QoS](#qos)
 - - [Streaming](#streaming)
 - - [Survey](#survey)
-- - [Virtulized](#virtulized)
+- - [Virtualization](#virtualization)
 
 <br>
 
@@ -855,7 +855,7 @@ Cloud virtual reality (VR) gaming traffic characteristics such as frame size, in
 
 <br>
 
-## Virtulized
+## Virtualization
 
 
 ### 1. Cloud Gaming: Understanding the Support from Advanced Virtualization and Hardware
