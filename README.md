@@ -4,8 +4,8 @@ A curated list of papers and open-source resources focused on CloudXR. If you ha
 
 # Table of contents
 
-- [Books](#books)
 - [Applicaiotns](#applicaitons)
+- [Books](#books)
 - [Implementations](#implementations)
 - [Papers](#Papers)
 - - [Architecture](#architecture)
@@ -25,7 +25,7 @@ A curated list of papers and open-source resources focused on CloudXR. If you ha
 
 # Applicaiotns
 
-
+<img src=./images/applications.jpg height=450 />
 
 <br>
 
